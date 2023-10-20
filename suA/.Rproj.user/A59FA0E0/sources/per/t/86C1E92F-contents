@@ -1,0 +1,36 @@
+---
+title: "数学確率"
+output: html_document
+date: "2023-10-05"
+---
+
+# 課題1-1
+AA21049 高嶋太陽
+
+(1) $X_i = a_{ij} x_j$
+
+>$X_1 = a_{11} x_1 + a_{12} x_2 + a_{13} x_3$
+$X_2 = a_{21} x_1 + a_{22} x_2 + a_{23} x_3$
+$X_3 = a_{31} x_1 + a_{32} x_2 + a_{33} x_3$
+
+(2) $A_{ij} = B_{ik}  C_{kj}$
+
+>$A_{11} = B_{11} C_{11} + B_{12} C_{21} + B_{13} C_{31}$
+$A_{21} = B_{21} C_{11} + B_{22} C_{21} + B_{23} C_{31}$
+$A_{31} = B_{31} C_{11} + B_{32} C_{21} + B_{33} C_{31}$
+$A_{12} = B_{11} C_{12} + B_{12} C_{22} + B_{13} C_{32}$
+$A_{22} = B_{21} C_{12} + B_{22} C_{22} + B_{23} C_{32}$
+$A_{32} = B_{31} C_{12} + B_{32} C_{22} + B_{33} C_{32}$
+$A_{13} = B_{11} C_{13} + B_{12} C_{23} + B_{13} C_{33}$
+$A_{23} = B_{21} C_{13} + B_{22} C_{23} + B_{23} C_{33}$
+$A_{33} = B_{31} C_{13} + B_{32} C_{23} + B_{33} C_{33}$
+
+(3) $\dfrac{\partial \rho}{\partial t} + \dfrac{\partial \rho u_i}{ \partial x_i} = 0$
+
+>$\dfrac{\partial \rho}{\partial t} + \left( \begin{matrix} \dfrac{\partial}{ \partial x_1} \\ \dfrac{\partial}{ \partial x_2} \\ \dfrac{\partial}{ \partial x_3} \end{matrix} \right) \cdot \left( \begin{matrix} \rho u_1 \\ \rho u_2 \\ \rho u_3 \end{matrix} \right) = 0$
+
+(4) $\dfrac{\partial \rho u_i} {\partial t} + \dfrac{\partial \rho u_i u_j} {\partial x_j} = - \dfrac{\partial p}{\partial x_i}$
+
+>$\dfrac{\partial \rho u_1} {\partial t} + \dfrac{\partial \rho u_1 u_1} {\partial x_1} + \dfrac{\partial \rho u_1 u_2} {\partial x_2} + \dfrac{\partial \rho u_1 u_3} {\partial x_3}= - \dfrac{\partial p}{\partial x_1}$
+>$\dfrac{\partial \rho u_2} {\partial t} + \dfrac{\partial \rho u_2 u_1} {\partial x_1} + \dfrac{\partial \rho u_2 u_2} {\partial x_2} + \dfrac{\partial \rho u_2 u_3} {\partial x_3}= - \dfrac{\partial p}{\partial x_2}$
+>$\dfrac{\partial \rho u_3} {\partial t} + \dfrac{\partial \rho u_3 u_1} {\partial x_3} + \dfrac{\partial \rho u_3 u_2} {\partial x_2} + \dfrac{\partial \rho u_3 u_3} {\partial x_3}= - \dfrac{\partial p}{\partial x_3}$
