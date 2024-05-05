@@ -1,0 +1,502 @@
+\RequirePackage{plautopatch}
+\documentclass[12pt]{ltjsarticle}\usepackage{ifthen}\newcounter{enlarge}\setcounter{enlarge}{1}
+%\documentclass[luatexja,fontsize=18pt]{jlreq}\usepackage{ifthen}\newcounter{enlarge}\setcounter{enlarge}{2}
+%\documentclass[luatexja,fontsize=22pt]{jlreq}\usepackage{ifthen}\newcounter{enlarge}\setcounter{enlarge}{3}
+
+\usepackage{xcolor}
+\usepackage{hyperref}
+\hypersetup{colorlinks=false,citebordercolor=green,linkbordercolor=red,urlbordercolor=cyan,}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{framed}
+\usepackage{ulem}
+\usepackage{wrapfig}
+\usepackage{graphicx}
+\usepackage[font=small]{caption}
+\usepackage{enumerate}
+
+\newcommand{\LS}[2]{\ifthenelse{\value{enlarge}=2 \OR \value{enlarge}=3}{#1}{#2}}
+\newcommand{\LO}[1]{\LS{#1}{\relax}}
+\newcommand{\SO}[1]{\LS{\relax}{#1}}
+\newcommand{\LNL}{\LO{\notag\\&}}
+
+\newcommand{\eqbox}[1]{\begin{oframed} {#1} \end{oframed} \noindent} % use with framed package
+% 何故かequationじゃないとへんな余白はいる。
+
+\newtheorem{eg}{例}
+
+\begin{document}
+
+{\Large%
+\noindent
+\textbf{%
+数学A　1章「場合の数と確率」　2節「確率」　カンペ
+\LO{\\ \color{teal} 〈拡大版〉}}
+}
+
+\begin{flushleft}
+\today \\
+TAIYO
+\end{flushleft}
+
+\begin{quotation}
+授業で使うスライド資料\footnote{%
+スライドは\url{https://github.com/sodesudesu/suA.git}から見られる。
+}\
+は作成したが、何を話すか忘れてしまいそうなのでこのようなレジュメも用意した。
+指導案の授業計画は高校生視点での展開なので、ここでは先公が話すことすることを書いた。
+自分のための単なるメモであり、高校生に配布するということを全く想定していない。
+\end{quotation}
+
+\section{確率の意味と用語の確認}
+
+\subsection{試行と事象} \label{ss:1.1}
+
+\paragraph{試行とは？事象とは？}
+
+同じ状態のもとで繰り返すことができ、結果が偶然によって決まる実験や観測などを\textbf{試行}という。
+試行の結果として起こる事柄を\textbf{事象}という。
+例えば、「硬貨を1回投げる」とか「彼女とおみくじを引く」とかが試行で、その結果の「表が出る」や「俺は吉で彼女は凶」が事象である。
+
+\paragraph{全事象と根元事象}
+
+この先、事象を集合を用いて表す。
+
+具体例として、サイコロを1回投げるという試行を扱う。
+出る目は $1,\, 2,\, \cdots ,\, 6$ のいずれかなので、これらを要素としてもつ集合
+\begin{align}
+  U = \{ 1,\, 2,\, 3,\, 4,\, 5,\, 6 \} \label{eq:1.1}
+\end{align}
+を定めておく。
+$U$ を\textbf{全事象}という。
+各々の試行について、あらかじめ全事象 $U$ を決めておくことで、様々な事象を $U$ の部分集合として表せるので便利である。
+例えば、偶数の目が出るという事象 $A$ は $A = \{ 2,\, 4,\, 6 \}$ と書き表され、もちろん $A \subset U$ である。
+$U$ の部分集合として、要素を持たない集合 $\varnothing$ を選んでもよく、これを\textbf{空事象}という。
+$U$ の1つの要素からなる集合
+\begin{align}
+  \{ 1\},\, \{2\},\, \{3\},\, \{4\},\, \{5\},\, \{6\} \label{eq:1.2}
+\end{align}
+は、\textbf{根元事象}と呼ばれる。
+
+当然だが、全事象の選び方には任意性がある。
+(\ref{eq:1.1})では全事象としてサイコロの出る目を指定したが、テーブル上のサイコロが着地する位置だとかサイコロが静止するまでの時間、さらにはこれらを組み合わせた（ものすごい凝った）全事象を考えることもできる。
+キリがない。
+(\ref{eq:1.1})は、サイコロ1個を投げるという操作に伴う雑多な情報の中から、出る目にだけ注目しました！という宣言だと捉えられる。
+
+\paragraph{積事象と和事象}
+
+2つの事象 $A,\, B$ について、 $A$ と $B$ がともに起こるという事象を\textbf{積事象}といい、共通部分 $A \cap B$ で表される。
+$A$ または\footnote{%
+  図\ref{f:1.1}を見るとわかるように、$A \cup B$ は$A \cap B$ で示される領域も含んでいる。
+  つまり、「$A$ または $B$」は「$A$ だけ」と「$B$ だけ」と「$A$ も $B$ も両方」という3つの場合を含んだ表現である。
+  国語の授業で習う「または」には3つ目の意味は含まれていないので（「法律により10年以下の懲役、もしくは1000万円以下の罰金、またはその両方が科せられます。NO MORE 映画泥棒」がいい例）、数学の「または」は日常語の「または」よりも欲張りだ。
+}\
+$B$ が起こるという事象を\textbf{和事象}といい、和集合 $A \cup B$ で表される。
+
+\begin{figure}[] 
+\centering 
+\includegraphics[width=10truecm]{./figure/f1-1.png}
+\captionsetup{width=.9\linewidth}
+\caption{%
+  積事象 $A \cap B$ のベン図（左）と和事象 $A \cup B$ のベン図（右）。
+}
+\label{f:1.1}
+\end{figure}
+
+\begin{eg}[サイコロを1回投げる試行での積事象と和事象]
+  サイコロを1回投げる。
+  偶数の目が出るという事象を $A$、4以上の目が出るという事象を $B$ とすると、これらは
+  \begin{align}
+    A &= \{2,\, 4,\, 6 \}, \label{eq:1.3} \\
+    B &= \{4,\, 5,\, 6 \} \label{eq:1.4}
+  \end{align}
+  という集合で表される。
+  これらの積事象 $A \cap B$ と和事象 $A \cup B$ はそれぞれ、
+  \begin{align}
+    A \cap B &= \{4,\, 6 \}, \label{eq:1.5} \\
+    B \cup B &= \{2,\, 4,\, 5,\, 6 \} \label{eq:1.6}
+  \end{align}
+  となる。
+  ベン図を描いて確かめよ。
+\end{eg}
+
+\paragraph{排反事象}
+
+サイコロを1回投げる試行について（再び）考える。
+事象 $A$ ：「偶数の目が出る」と事象 $B$ ：「3の目が出る」の積事象 $A \cap B$ は、
+\begin{align}
+  A \cap B = \varnothing\, \text{（空事象）} \label{eq:1.7}
+\end{align}
+である（図\ref{f:1.2}）。
+つまり、事象 $A$ と事象 $B$ は同時には起こらない。
+この時、事象 $A$ と事象 $B$ は\textbf{互いに排反}である、または、\textbf{互いに排反事象}であるという。
+
+\begin{figure}[] 
+\centering 
+\includegraphics[width=6truecm]{./figure/f1-2.png}
+\captionsetup{width=.9\linewidth}
+\caption{%
+  事象 $A = \{2,\, 4,\, 6\}$ と事象 $B = \{3\}$ のベン図。
+  $A \cap B = \varnothing$ つまり、ベン図でこれらの集合は交わらない。
+  3つ以上の事象についても、ベン図を描いて交わらないならば、それらは互いに排反である。
+}
+\label{f:1.2}
+\end{figure}
+
+\subsection{確率の計算と同様に確からしい根元事象について注意}
+
+ついに確率の計算が始まる。
+
+\paragraph{確率の計算}
+
+ある1つの試行について、根元事象のどれが起こることも同じ程度に期待される時、これらの根元事象は\textbf{同様に確からしい}という。
+
+全事象の\textbf{どの根元事象も同様に確からしいとき}、事象 $A$ の確率 $P(A)$ は
+\begin{oframed}
+  \begin{align}
+    P(A) = \frac{\text{事象}\, A \text{の要素の個数}\, n(A)}{\text{全事象}\, U \text{の要素の個数}\, n(U)} \label{eq:1.8}
+  \end{align}
+\end{oframed}
+\noindent
+で計算される。
+
+\begin{eg}[「どの根元事象も同様に確からしい」に注意せよ！] \label{eg:1.1}
+  3枚のカードがあり、それぞれ0, 1, 2と書かれている。
+  カードを裏返しにしてよくきり、1枚選ぶ。
+  数字を確認したあと、そのカードは戻してよくシャッフルし、再び1枚選んで数字を確認する。
+  選んだ2つのカードに書かれた数字の和が3となる確率はいくらか。
+
+  \textbf{（答え？）}
+  2つの数字の和の候補は、$0,\, 1,\, 2,\, 3,\, 4$ だから、全事象は、
+  \begin{align}
+    \{0,\, 1,\, 2,\, 3,\, 4\} \label{eq:1.9}
+  \end{align}
+  である。
+  したがって、
+  \begin{align}
+    \text{和が3となる確率} = \frac{\text{事象「和が3」の要素数}}{\text{全事象の要素数}} = \frac{1}{5} \label{eq:1.10}
+  \end{align}
+  となる。\mbox{}\\
+
+  この解答は一見もっともらしいが、根本的な誤りがある。
+  反省すべきは、\eqref{eq:1.9} のように、根元事象を
+  \begin{align}
+    \{0\},\,\{1\},\,\{2\},\,\{3\},\,\{4\} \label{eq:1.10.1}
+  \end{align}
+  としてしまった点である。
+  確率の求め方\eqref{eq:1.8}を使えるのは、根元事象が同様に確からしい場合であった。
+  \eqref{eq:1.10.1}は同様に確からしい根元事象ではない。
+  なぜならば、(1枚目のカードの数字, 2枚目のカードの数字)と表すことにすると、
+  \begin{center}
+  \begin{tabular}{c|ccccc} \hline
+    和 & 0 & 1 & 2 & 3 & 4 \\ \hline
+    2枚の & (0, 0) & (0, 1) & (0, 2) & (1, 2) & (2, 2) \\
+    組合せ &  & (1, 0) & (1, 1) & (2, 1) &  \\
+     &  &  & (2, 0) & & \\ \hline
+  \end{tabular}
+  \end{center}
+  のように0〜4の各和に対しカードの選ばれ方が対応しており、それぞれの場合の数が異なっているからだ。
+  表の下側に現れた2枚の組合せ $(0,\, 0),\, (0,\, 1),\, \cdots ,\, (2,\,2)$ は、どれが起こることも同様に期待できる。
+  よって、今考えている試行において根元事象として選ぶべきは、2つの数字の和ではなく、2枚のカードの組合せであった。
+
+  \textbf{こっちが正しい（答え）}
+  根元事象を2枚のカードの組合せとして、（上の表を見ながら）2つの数字の和が3となる確率を正しく計算すると、
+  \begin{align}
+    \text{和が3となる確率} = \frac{2}{9} \label{eq:1.10}
+  \end{align}
+  となる。
+\end{eg}
+
+くり返しになるが、確率の定義\eqref{eq:1.8}は、\textbf{全事象のどの根元事象も同様に確からしいとき}に限って使える（やや不自由な）ものである。
+つまり我々は確率を計算する際、まず、同様に確からしい根元事象を探さなければならない。
+上の例で言えば、
+\begin{quotation}
+  だめ：根元事象は $\{0\},\,\{1\},\,\{2\},\,\{3\},\,\{4\}$ だ！
+  
+  OK：根元事象は $\{(0,\, 0)\},\, \{(0,\, 1)\},\, \cdots ,\, \{(2,\,2)\}$ だ！
+\end{quotation}
+となる。
+
+複数個のサイコロや複数個の硬貨などが登場する場合に、名前をつけてそれらを区別したり、同じ操作を繰り返し行う場合（例\ref{eg:1.1}）に「1回目」「2回目」・・・のように回数でそれらを区別したりするのが「同様に確からしい根元事象探し」の常套手段である。
+
+\begin{eg}[複数個の硬貨に名前をつけて区別]
+  2枚の硬貨を同時に投げる時、2枚とも表になる確率を計算せよ。
+
+  \textbf{（答え）}
+  硬貨が2枚登場するので、1つを硬貨 A、もう1方を硬貨 B と名付けて区別する。
+  根元事象は、(硬貨 A の表裏, 硬貨 B の表裏) と表すと、
+  \begin{align}
+    \{(\text{表}, \text{表})\},\, \{(\text{表}, \text{裏})\},\, \{(\text{裏}, \text{表})\},\, \{(\text{裏}, \text{裏})\} \label{eq:1.11}
+  \end{align}
+  のように選べば、これらは同様に確からしい（$\{\text{2枚とも表}\},\, \{\text{1枚は表、1枚は裏}\},\, \{\text{2枚とも裏}\},\,$ は同様に確からしいと言えない）。
+  したがって、2枚とも表が出る確率は、
+  \begin{align}
+    P(\text{2枚とも表}) = \frac{1}{4} \label{eq:1.12}
+  \end{align}
+  である。
+\end{eg}
+
+\subsection{確率の基本性質}
+
+\paragraph{確率の基本性質その1}
+
+前節の復習だが、事象 $A$ の確率は、
+\begin{align}
+    P(A) = \frac{\text{事象}\, A \text{の要素の個数}\, n(A)}{\text{全事象}\, U \text{の要素の個数} \,n(U)} \label{eq:1.13}
+\end{align}
+で計算された（この式は\eqref{eq:1.8}と同じもの）。
+
+\ref{ss:1.1}節で述べたように、事象 $A$ は全事象 $U$ の部分集合で表すことができるので、$A$ の要素の個数 $n(A)$ について、
+\begin{align}
+  n(\varnothing) \leqq n(A) \leqq n(U) \label{eq:1.14}
+\end{align}
+が成り立つ。
+各辺を $n(U)$ で割ると、
+\begin{align}
+  \frac{n(\varnothing)}{n(U)} \leqq \frac{n(A)}{n(U)} \leqq \frac{n(U)}{n(U)} \label{eq:1.16}
+\end{align}
+すなわち、
+\begin{oframed}
+\begin{align}
+  0 \leqq P(A) \leqq 1 \label{eq:1.17}
+\end{align}
+\end{oframed}
+\noindent
+が成り立つことがわかる。
+ただし、最左辺の変形には、空事象 $\varnothing$ は要素を持たない集合で表されるから、$n(\varnothing) = 0$ となることを利用した。
+中辺の変形には確率の求め方\eqref{eq:1.13}を使った。
+\eqref{eq:1.16}と\eqref{eq:1.17}を見比べると、$P(A) = 0$ は $A = \varnothing$ の時に、$P(A) = 1$ は $A = U$ の時に成り立つことがわかる。
+
+\paragraph{確率の基本性質その2（確率の加法定理）}
+
+事象 $A$ と事象 $B$ は\textbf{互いに排反である} とする。
+これらの和事象 $n(A \cup B)$ の要素の個数は、
+\begin{align}
+  n(A \cup B) = n(A) + n(B) \label{eq:1.18}
+\end{align}
+と書ける。
+図\ref{f:1.2}からも明らかなように、2つの集合が交わらないので各集合の要素数を単純に足し合わせたものが和事象 $A \cup B$ の要素数になるのだ。
+
+確率の定義\eqref{eq:1.13}と\eqref{eq:1.18}を用いることで、和事象 $A \cup B$ の確率 $P(A \cup B)$ は、
+\begin{align}
+  P(A \cup B) &= \frac{n(A \cup B)}{n(U)} \notag \\
+              &= \frac{n(A) + n(B)}{n(U)} \notag \\
+              &= \frac{n(A)}{n(U)} + \frac{n(B)}{n(U)} 
+\end{align}
+となるので、
+\begin{oframed}
+  \begin{align}
+    P(A \cup B) &= P(A) + P(B) \label{eq:1.19}
+  \end{align}
+\end{oframed}
+\noindent
+という表式が得られる。
+\eqref{eq:1.19} は\textbf{確率の加法定理} と呼ばれる。
+
+\eqref{eq:1.19} は、事象 $A$ と事象 $B$ が互いに排反であるときに限って使えるということに注意せよ。
+$A$ と $B$ が互いに排反でない場合への拡張は次節でおこなう。
+
+% 加法定理を使った練習問題をここに
+
+\section{様々な確率の計算}
+
+\subsection{和事象と余事象の確率}
+
+\paragraph{和事象の確率}
+
+前節で強調したように、確率の加法定理\eqref{eq:1.19}は互いに排反な事象の和事象を計算するものであった。
+ここでは、互いに排反とは限らない事象についても和事象を計算することが目標である。
+
+互いに排反ではない2つの事象 $A,\, B$ について、これらの和事象の要素の個数は
+\begin{align}
+  n(A \cup B) = n(A) + n(B) - n(A \cap B) \label{eq:2.1}
+\end{align}
+と表される（図\ref{f:2.1}を参照、もしくは教科書やノートの集合のページを復習せよ）。
+確率の定義\eqref{eq:1.13}とあわせて、
+\begin{align}
+  P(A \cup B) &= \frac{n(A \cup B)}{n(U)} \notag \\
+              &= \frac{n(A) + n(B) - n(A \cap B)}{n(U)} \notag \\
+              &= \frac{n(A)}{n(U)} + \frac{n(B)}{n(U)} - \frac{n(A \cap B)}{n(U)}
+\end{align}
+であるから、和事象の確率の公式
+\begin{oframed}
+  \begin{align}
+    P(A \cup B) &= P(A) + P(B) - P(A \cap B) \label{eq:2.2}
+  \end{align}
+\end{oframed}
+\noindent
+が導かれる。
+
+\begin{figure}[] 
+\centering 
+\includegraphics[width=6truecm]{./figure/f2-1.png}
+\captionsetup{width=.9\linewidth}
+\caption{%
+  互いに排反でない事象 $A$ と事象 $B$ のベン図。
+  和事象 $A \cup B$ の要素の個数はどう表されるか。
+  各集合の要素の個数を $n(A) + n(B)$ のように足し算してしまうと、共通部分 $A \cap B$ （図の緑色の部分）を余分に数え上げることになる。
+  したがって、2つの集合の要素数の和 $n(A) + n(B)$ から、重複して数えてしまった $n(A \cap B)$ を引いたものが、和事象 $A \cup B$ の要素の個数となる：$n(A \cup B) = n(A) + n(B) - n(A \cap B)$.
+}
+\label{f:2.1}
+\end{figure}
+
+事象 $A$ と事象 $B$ が互いに排反（図\ref{f:1.2}のように、ベン図で描けば互いに交わらない）であれば、$A \cap B = \varnothing$ つまり $ n(A \cap B) = 0$ だから、$P(A \cap B) = \dfrac{n(A \cap B)}{n(U)} = 0$ となるので、\eqref{eq:2.2}の右辺第3項が消えて、
+\begin{align}
+  P(A \cup B) = P(A) + P(B) \label{eq:2.3}
+\end{align}
+が得られる。
+この表式は、\pageref{eq:1.19}ページで紹介した確率の加法定理である。
+つまり、確率の加法定理\eqref{eq:2.3}は$A \cap B = \varnothing$（$A$ と $B$ は互いに排反事象）という特殊な場合として、和事象の確率の公式\eqref{eq:2.2}に含まれている。
+
+% 和事象の確率の練習問題
+
+\paragraph{余事象の確率}
+
+
+
+\section{条件付き確率}
+
+\subsection{条件付き確率}
+
+\paragraph{条件付き確率ってなんなのさ}
+
+生徒会が全校生徒100人にアンケートをとった。
+アンケートは「あなたは文系ですか、理系ですか？」と「あなたは爬虫類を飼っていますか？」の2問だった。
+結果は表\ref{t:3.1}のようになった。
+
+\begin{table}[tb]
+\captionsetup{width=.9\linewidth}
+\caption{%
+  生徒100人に「文系か理系か」、「爬虫類を飼っているか」という質問をして得られたデータ。
+  100人からランダムに1人選んだとき、その生徒が文系であるという事象 $A$、理系であるという事象 $\overline{A}$、爬虫類を飼っているという事象 $B$、爬虫類を飼っていないという事象 $\overline{B}$ の確率を考える。
+  単に選ばれた生徒が文系である確率を計算したければ、表の4行目に着目することで、 $P(A) = 65/100$ が求まる。
+  選ばれた生徒が爬虫類を飼っていることをあらかじめ知らされている場合、表の2行目に着目し、条件付き確率 $P_B (A) = 10/25$ が求まる。
+  同じ「文系である確率」の計算でも、爬虫類を飼っているかどうかの情報の有無によって確率の計算過程（ここでは表のどこに注目して計算を進めるか）が変わる。
+}
+\label{t:3.1}
+\centering
+\begin{tabular}{c|cc|c} \hline
+ & 文系 $A$ & 理系 $\overline{A}$ & 計 \\ \hline
+爬虫類を飼っている $B$ & 10 & 15 & 25 \\
+爬虫類を飼っていない $\overline{B}$ & 55 & 20 & 75 \\ \hline
+計 & 65 & 35 & 100 \\ \hline
+\end{tabular}    
+\end{table}
+
+アンケートに答えた100人の中からランダムに1人選び出したとき、その生徒が文系であるという事象を $A$、その生徒が爬虫類を飼っているという事象を $B$ とする。
+すると、その生徒が理系である事象と爬虫類の飼い主ではないという事象はそれぞれ $A$, $B$ の余事象 $\overline{A}$, $\overline{B}$ で表される。
+
+表\ref{t:3.1}から、回答者100人のうち文系は65人（多いですね〜）とわかった。
+この事実をもとに、事象 $A$ の確率（選ばれたその生徒が文系である確率）は、
+\begin{align}
+  P(A) = \frac{65}{100} = \frac{13}{20} \label{eq:3.1}
+\end{align}
+と計算できる。
+再び100人の中から1人をランダムに選ぶ。
+今回はあらかじめその生徒が爬虫類を飼っていることがわかっていたとする。
+表\ref{t:3.1}から、爬虫類を飼っている生徒は25人いて、そのうち文系は10人いると読み取れるので、この生徒が文系である確率は、
+\begin{align}
+  P(A) = \frac{10}{25} = \frac{2}{5} \label{eq:3.2}
+\end{align}
+となる。
+
+(\ref{eq:3.1})も(\ref{eq:3.2})も文系である確率 $P(A)$ を計算するものだが、値が異なっている。
+なぜだろうか。
+(\ref{eq:3.2})を計算する際、事前に「その生徒が爬虫類を飼っている（事象 $B$）」という情報を得ていた。
+言い換えると、事象 $B$ が起こったことがわかった上で事象 $A$ の確率を計算していた。
+一方で、(\ref{eq:3.1})のときは爬虫類を飼っているかの情報はなかった。
+事前情報の有無によって確率の計算結果が変わってしまうのだ（表\ref{t:3.1}の説明も参照）。
+(\ref{eq:3.2})について、事象 $A$ の確率を計算する際に「事象 $B$ が起こったことを事前に知っていましたよ」ということを強調するために、確率の記号として $P(A)$ に下付き文字を加えた $P_B (A)$ を用いる。
+$P_B (A)$ を事象 $B$ が起こったときに事象 $A$ が起こる\textbf{条件付き確率}と呼ぶ。
+
+\paragraph{条件付き確率の計算}
+
+条件付き確率(\ref{eq:3.2})の表式を見ると、文系かつ爬虫類を飼っている生徒の人数 $n(A \cap B) = 10\,$人を、爬虫類を飼っている生徒の人数 $n(B) = 25\,$ 人で割っているとわかる。
+つまり、
+\begin{oframed}
+  \begin{align}
+    P_B (A) = \frac{n(A \cap B)}{n(A)} \label{eq:3.3}
+  \end{align}
+\end{oframed}
+\noindent
+と書ける。
+この式の右辺の分母分子を $n(U)$ で割ると、
+\begin{oframed}
+  \begin{align}
+    P_B (A) = \frac{P(A \cap B)}{P(A)} \label{eq:3.4}
+  \end{align}
+\end{oframed}
+\noindent
+という表式も得られる。
+我々は、(\ref{eq:3.3})や(\ref{eq:3.4})を用いて、事象 $B$ が起こったときに事象 $A$ が起こる条件付き確率 $P_B (A)$ を求める。
+
+\begin{eg}[条件付き確率の計算問題]
+  表 \ref{t:3.1}の100人から選び出された生徒が理系であることがわかっているとき、その生徒が爬虫類を飼っている確率 $P_{\overline{A}} (B)$ を計算せよ。
+
+  \textbf{（答え）}
+  (\ref{eq:3.3})より、
+  \begin{align}
+    P_{\overline{A}} (B) = \frac{n(\overline{A} \cap B)}{n(B)} = \frac{3}{7} \label{eq:3.5}
+  \end{align}
+  となる。
+\end{eg}
+
+\subsection{確率の乗法定理}
+
+(\ref{eq:3.4})の両辺を $P(A)$ 倍すると、
+\begin{oframed}
+  \begin{align}
+    P(A \cap B) = P(A) P_B (A) \label{eq:3.6}
+  \end{align}
+\end{oframed}
+\noindent
+が得られる。
+これは、\textbf{確率の乗法定理}と呼ばれる。
+
+\begin{eg}[確率の乗法定理(\ref{eq:3.6})の使いどころ]
+  箱に赤玉3個と白玉2個が入っている。
+  目をつぶって箱から玉をひとつ取り出し、その玉を箱に戻さずにもう一度目をつぶって箱から玉を取り出した。
+  2つとも赤玉である確率を計算せよ。
+
+  \textbf{（答え）}
+  1回目が赤玉である確率は$P(\text{1回目赤}) = 3/5$ で、1回目に赤玉を引いた時に2回目に赤玉を引く条件付き確率は$P_{\text{1回目赤}}(\text{2回目赤}) = 1/2$ となる。
+  確率の乗法定理(\ref{eq:3.6})より、1回目も2回目も赤玉を取り出す確率は、
+  \begin{align}
+    P(\text{1回目赤} \cap \text{2回目赤})
+    &= P(\text{1回目赤}) \times P_{\text{1回目赤}}(\text{2回目赤}) \notag \\
+    &= \frac{3}{5} \times \frac{1}{2} \notag \\
+    &= \frac{3}{10} \label{eq:3.7}
+  \end{align}
+  と計算される。
+\end{eg}
+
+\subsection{原因の確率}
+
+\paragraph{本節でやりたいこと}
+
+\begin{eg}[spam メールの判別]
+  受信者の意図を無視した一方的なメールをspamメールといい、spamではないものをhamと呼ぶ。
+
+  手元に10000件のメールがあり、そのうち3000件がspamで残り7000件がhamである。
+  spamメールのうち80％には本文に"claim"という単語が含まれている。
+  一方、hamの5％には本文に"claim"という単語が含まれている。
+  一応表にしておく：
+
+  \begin{center}
+  \begin{tabular}{c|cc|c} \hline
+    & spam  ($A$) & ham ($\overline{A}$) & 計 \\ \hline
+    claim が含まれる ($B$) & 2400 & 350 & 2750 \\
+    claim が含まれない ($\overline{B}$) & 600 & 6650 & 7250 \\ \hline
+    計 & 3000 & 7000 & 1000 \\ \hline
+  \end{tabular}
+  \end{center}
+
+  この10000件のメールの中から、無作為に1件メールを選んだところ本文に"claim"という単語が含まれていた。
+  このメールがspamである確率を計算せよ。
+
+  表が書ければ計算は一発だが、ここではあえて愚直に計算を進めよう。
+  \end{eg}
+
+\end{document}
+
+%\begin{wrapfigure}{r}{3cm}\vspace*{-\intextsep}\includegraphics[width=3cm]{f1.pdf}\end{wrapfigure}

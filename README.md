@@ -42,7 +42,8 @@
 
 ### 授業計画
 
-- [スライド](presen/prob_guidance.pdf)
+- [スライド](presen/guidance.pdf)
+- [授業の原稿](resume/resume.pdf)
 
 ### Part0 準備編
 

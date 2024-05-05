@@ -1,8 +1,8 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.12.26)  12 MAR 2024 16:44
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.12.26)  5 MAY 2024 12:28
  restricted system commands enabled.
  file:line:error style messages enabled.
-**_region_.tex
-(./_region_.tex
+**resume.tex
+(./resume.tex
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-12-11>
 Lua module: luaotfload 2023-08-31 3.26 Lua based OpenType font support
@@ -40,9 +40,8 @@ Inserting `luaotfload.aux.fixup_fontdata' in `luaotfload.patch_font_unsafe'.
 Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
 Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
 Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'.
-Inserting `tracingstacklevels' in `input_level_string'.  !name(prob_resume.tex)
-
-(/usr/local/texlive/2023/texmf-dist/tex/latex/plautopatch/plautopatch.sty
+Inserting `tracingstacklevels' in `input_level_string'. (/usr/local/texlive/202
+3/texmf-dist/tex/latex/plautopatch/plautopatch.sty
 Package: plautopatch 2021/12/07 v0.9q Automated patches for pLaTeX/upLaTeX
 Package plautopatch Info: This package is meant for pLaTeX/upLaTeX,
 (plautopatch)             you will not need it. on input line 16.
@@ -658,15 +657,14 @@ LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(/usr/local/texlive/2023/texmf-dist/tex/latex/framed/framed.sty
+(./framed.sty
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \OuterFrameSep=\skip55
 \fb@frw=\dimen177
 \fb@frh=\dimen178
 \FrameRule=\dimen179
 \FrameSep=\dimen180
-)
-(/usr/local/texlive/2023/texmf-dist/tex/generic/ulem/ulem.sty
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/ulem/ulem.sty
 \UL@box=\box72
 \UL@hyphenbox=\box73
 \UL@skip=\skip56
@@ -738,9 +736,13 @@ Package: enumerate 2023/07/04 v3.00 enumerate extensions (DPC)
 )
 \c@eg=\count303
 
-No file _region_.aux.
+(./resume.aux
 
-\openout1 = _region_.aux
+LaTeX Warning: Label `eq:1.10' multiply defined.
+
+)
+\openout1 = resume.aux
+
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
 LaTeX Font Info:    ... okay on input line 28.
 LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
@@ -752,7 +754,7 @@ LaTeX Font Info:    ... okay on input line 28.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
 8.
-(/usr/local/texlive/2023/texmf-dist/tex/latex/base/ts1cmr.fd
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 28.
@@ -794,92 +796,180 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 Package hyperref Info: Link coloring OFF on input line 28.
+
+(./resume.out) (./resume.out)
 \@outlinefile=\write3
 
-\openout3 = _region_.out
+\openout3 = resume.out
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-
- !name(prob_resume.tex) !offset(-3) (load cache: extra_lmroman12-regular.luc)
+(load cache: extra_lmroman12-regular.luc)
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 13.31586pt on input line 33.
+(Font)              scaled to size 13.31586pt on input line 30.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 13.31586pt on input line 33.
+(Font)              scaled to size 13.31586pt on input line 30.
 (load cache: extra_lmroman12-bold.luc)
 LaTeX Font Info:    Font shape `JT3/mc/b/n' in size <14.4> not available
-(Font)              Font shape `JT3/gt/m/n' tried instead on input line 37.
+(Font)              Font shape `JT3/gt/m/n' tried instead on input line 34.
 LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
-(Font)              scaled to size 11.09657pt on input line 37.
+(Font)              scaled to size 11.09657pt on input line 34.
 LaTeX Font Info:    Font shape `JY3/mc/b/n' in size <14.4> not available
-(Font)              Font shape `JY3/gt/m/n' tried instead on input line 37.
+(Font)              Font shape `JY3/gt/m/n' tried instead on input line 34.
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
-(Font)              scaled to size 11.09657pt on input line 37.
+(Font)              scaled to size 11.09657pt on input line 34.
 (load cache: extra_haranoajigothic-medium.luc)
-LaTeX Font Info:    Calculating math sizes for size <11.99997> on input line 50
+LaTeX Font Info:    Calculating math sizes for size <11.99997> on input line 43
 .
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 6.47295pt on input line 50.
+(Font)              scaled to size 6.47295pt on input line 43.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 4.62357pt on input line 50.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 50.
+(Font)              scaled to size 4.62357pt on input line 43.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 43.
 
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 50.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 43.
 
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )(load cache: extra_lmroman7-regular.luc)
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 6.47295pt on input line 50.
-LaTeX Font Info:    Calculating math sizes for size <9.59998> on input line 52.
+(Font)              scaled to size 6.47295pt on input line 43.
+LaTeX Font Info:    Calculating math sizes for size <9.59998> on input line 45.
 
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.59996> not available
-(Font)              size <6> substituted on input line 52.
+(Font)              size <6> substituted on input line 45.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4> not available
-(Font)              size <5> substituted on input line 52.
+(Font)              size <5> substituted on input line 45.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <5.59996> not available
-(Font)              size <6> substituted on input line 52.
+(Font)              size <6> substituted on input line 45.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <4> not available
-(Font)              size <5> substituted on input line 52.
+(Font)              size <5> substituted on input line 45.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <5.59996> not available
-(Font)              size <6> substituted on input line 52.
+(Font)              size <6> substituted on input line 45.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <4> not available
-(Font)              size <5> substituted on input line 52.
+(Font)              size <5> substituted on input line 45.
 
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 5.17834pt on input line 52.
+(Font)              scaled to size 5.17834pt on input line 45.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 3.69885pt on input line 52.
+(Font)              scaled to size 3.69885pt on input line 45.
 (load cache: extra_lmroman6-regular.luc)
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 5.17834pt on input line 52.
-(save cache: /Users/taiyo/Library/texlive/2023/texmf-var/luatexja/extra_lmmono8-
-regular.lua.gz)(save cache: /Users/taiyo/Library/texlive/2023/texmf-var/luatexja
-/extra_lmmono8-regular.luc)
+(Font)              scaled to size 5.17834pt on input line 45.
+(load cache: extra_lmmono8-regular.luc)
 LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
-(Font)              scaled to size 7.3977pt on input line 52.
+(Font)              scaled to size 7.3977pt on input line 45.
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
-(Font)              scaled to size 7.3977pt on input line 52.
+(Font)              scaled to size 7.3977pt on input line 45.
+LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
+(Font)              scaled to size 13.31586pt on input line 51.
+LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
+(Font)              scaled to size 13.31586pt on input line 51.
+(load cache: extra_lmsans12-regular.luc)
+LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
+(Font)              scaled to size 11.09656pt on input line 53.
+LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
+(Font)              scaled to size 11.09656pt on input line 53.
+LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
+(Font)              scaled to size 11.09656pt on input line 53.
+LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
+(Font)              scaled to size 11.09656pt on input line 53.
+LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
+(Font)              scaled to size 9.24713pt on input line 57.
+LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
+(Font)              scaled to size 9.24713pt on input line 57.
+(load cache: extra_lmsans10-regular.luc)(load cache: extra_lmroman10-bold.luc)
+LaTeX Font Info:    Font shape `JT3/mc/b/n' in size <10> not available
+(Font)              Font shape `JT3/gt/m/n' tried instead on input line 57.
+LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
+(Font)              scaled to size 7.70596pt on input line 57.
+LaTeX Font Info:    Font shape `JY3/mc/b/n' in size <10> not available
+(Font)              Font shape `JY3/gt/m/n' tried instead on input line 57.
+LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
+(Font)              scaled to size 7.70596pt on input line 57.
 [1
 
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./_region_.aux)
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 96.
+
+<./figure/f1-1.png, id=73, 722.7pt x 265.49188pt>
+File: ./figure/f1-1.png Graphic file (type png)
+<use ./figure/f1-1.png>
+Package luatex.def Info: ./figure/f1-1.png  used on input line 98.
+(luatex.def)             Requested size: 284.52756pt x 104.52582pt.
+(load cache: extra_lmroman9-regular.luc)
+LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
+(Font)              scaled to size 8.32242pt on input line 102.
+LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
+(Font)              scaled to size 8.32242pt on input line 102.
+LaTeX Font Info:    Calculating math sizes for size <10.79997> on input line 10
+2.
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4.5> not available
+(Font)              size <5> substituted on input line 102.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <4.5> not available
+(Font)              size <5> substituted on input line 102.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <4.5> not available
+(Font)              size <5> substituted on input line 102.
+
+LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
+(Font)              scaled to size 5.82565pt on input line 102.
+LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
+(Font)              scaled to size 4.16121pt on input line 102.
+(load cache: extra_lmroman5-regular.luc)
+LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
+(Font)              scaled to size 4.62357pt on input line 129.
+[2<./figure/f1-1.png>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 134.
+
+<./figure/f1-2.png, id=96, 268.00125pt x 113.42375pt>
+File: ./figure/f1-2.png Graphic file (type png)
+<use ./figure/f1-2.png>
+Package luatex.def Info: ./figure/f1-2.png  used on input line 136.
+(luatex.def)             Requested size: 170.71652pt x 72.24998pt.
+[3<./figure/f1-2.png>] [4]
+Overfull \hbox (34.52086pt too wide) in paragraph at lines 230--233
+|\JY3/mc/m/n/11.99997 の |よ |う |に |選 |べ |ば []  |こ |れ |ら |
+は |同 |様 |に |確 |か |ら |し |い  []$\OMS/cmsy/m/n/11.99997 f[]g\OML
+/cmm/m/it/11.99997 ;  \OMS/cmsy/m/n/11.99997 f[]g\OML/cmm/m/it/11.99997 ;  \OMS
+/cmsy/m/n/11.99997 f[]g\OML/cmm/m/it/11.99997 ; $
+ []
+
+[5] [6]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 330.
+
+<./figure/f2-1.png, id=160, 303.63437pt x 209.78375pt>
+File: ./figure/f2-1.png Graphic file (type png)
+<use ./figure/f2-1.png>
+Package luatex.def Info: ./figure/f2-1.png  used on input line 332.
+(luatex.def)             Requested size: 170.71652pt x 117.95184pt.
+[7] [8<./figure/f2-1.png>] [9] [10] [11] (./resume.aux)
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-12-11>
@@ -890,37 +980,50 @@ LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
 
-Package rerunfilecheck Warning: File `_region_.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
+LaTeX Warning: There were multiply-defined labels.
 
-Package rerunfilecheck Info: Checksums for `_region_.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `resume.out' has not changed.
+(rerunfilecheck)             Checksum: 187689A90B146A245208B35DFDD55E80;1241.
 )
 
 Here is how much of LuaTeX's memory you used:
- 13995 strings out of 476506
- 125244,1977958 words of node,token memory allocated
- 1082 words of node memory still in use:
-   10 hlist, 2 vlist, 5 rule, 3 glue, 4 kern, 1 glyph, 214 attribute, 54 glue_sp
-ec, 31 attribute_list, 1 write, 13 user_defined nodes
-   avail lists: 1:13,2:10121,3:167,4:174,5:51,6:20,7:1702,8:37,9:771,10:14
- 35719 multiletter control sequences out of 65536+600000
- 68 fonts using 41825007 bytes
- 125i,8n,128p,1841b,424s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmmono8-regular.otf
-></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman6-regular.o
-tf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman7-regular
-.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/haranoaji/HaranoA
-jiMincho-Regular.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/l
-m/lmroman10-regular.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/publi
-c/lm/lmroman12-bold.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/publi
-c/haranoaji/HaranoAjiGothic-Medium.otf>
-Output written on _region_.pdf (1 page, 36883 bytes).
+ 14247 strings out of 476506
+ 156562,1977958 words of node,token memory allocated
+ 1226 words of node memory still in use:
+   11 hlist, 2 vlist, 5 rule, 5 glue, 4 kern, 1 glyph, 260 attribute, 57 glue_sp
+ec, 36 attribute_list, 1 write, 14 user_defined nodes
+   avail lists: 1:24,2:43036,3:465,4:347,5:196,6:42,7:5177,8:64,9:2283,10:32
+ 35872 multiletter control sequences out of 65536+600000
+ 93 fonts using 66195007 bytes
+ 125i,13n,128p,1839b,711s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.ot
+f></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmsans10-regular.
+otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman9-regula
+r.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmmono8-regul
+ar.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman6-reg
+ular.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmsans12-r
+egular.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman7
+-regular.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/haranoaji
+/HaranoAjiMincho-Regular.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/
+public/lm/lmroman10-regular.otf></usr/local/texlive/2023/texmf-dist/fonts/openty
+pe/public/lm/lmroman12-bold.otf></usr/local/texlive/2023/texmf-dist/fonts/openty
+pe/public/haranoaji/HaranoAjiGothic-Medium.otf></usr/local/texlive/2023/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2023/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsy9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfont
+s/symbols/msam10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsf
+onts/symbols/msbm10.pfb>
+Output written on resume.pdf (11 pages, 384471 bytes).
 
-PDF statistics: 66 PDF objects out of 1000 (max. 8388607)
- 41 compressed objects within 1 object stream
- 3 named destinations out of 1000 (max. 131072)
- 1 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 345 PDF objects out of 1000 (max. 8388607)
+ 278 compressed objects within 3 object streams
+ 78 named destinations out of 1000 (max. 131072)
+ 81 words of extra memory for PDF output out of 10000 (max. 100000000)
 
