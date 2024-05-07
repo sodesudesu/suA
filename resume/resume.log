@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.12.26)  5 MAY 2024 12:28
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.12.26)  6 MAY 2024 22:03
  restricted system commands enabled.
  file:line:error style messages enabled.
 **resume.tex
@@ -838,138 +838,168 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )(load cache: extra_lmroman7-regular.luc)
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
 (Font)              scaled to size 6.47295pt on input line 43.
-LaTeX Font Info:    Calculating math sizes for size <9.59998> on input line 45.
+LaTeX Font Info:    Calculating math sizes for size <9.59998> on input line 46.
 
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.59996> not available
-(Font)              size <6> substituted on input line 45.
+(Font)              size <6> substituted on input line 46.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4> not available
-(Font)              size <5> substituted on input line 45.
+(Font)              size <5> substituted on input line 46.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <5.59996> not available
-(Font)              size <6> substituted on input line 45.
+(Font)              size <6> substituted on input line 46.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <4> not available
-(Font)              size <5> substituted on input line 45.
+(Font)              size <5> substituted on input line 46.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <5.59996> not available
-(Font)              size <6> substituted on input line 45.
+(Font)              size <6> substituted on input line 46.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <4> not available
-(Font)              size <5> substituted on input line 45.
+(Font)              size <5> substituted on input line 46.
 
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 5.17834pt on input line 45.
+(Font)              scaled to size 5.17834pt on input line 46.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 3.69885pt on input line 45.
+(Font)              scaled to size 3.69885pt on input line 46.
 (load cache: extra_lmroman6-regular.luc)
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 5.17834pt on input line 45.
+(Font)              scaled to size 5.17834pt on input line 46.
 (load cache: extra_lmmono8-regular.luc)
 LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
-(Font)              scaled to size 7.3977pt on input line 45.
+(Font)              scaled to size 7.3977pt on input line 46.
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
-(Font)              scaled to size 7.3977pt on input line 45.
+(Font)              scaled to size 7.3977pt on input line 46.
 LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
-(Font)              scaled to size 13.31586pt on input line 51.
+(Font)              scaled to size 13.31586pt on input line 52.
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
-(Font)              scaled to size 13.31586pt on input line 51.
+(Font)              scaled to size 13.31586pt on input line 52.
 (load cache: extra_lmsans12-regular.luc)
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 11.09656pt on input line 53.
+(Font)              scaled to size 11.09656pt on input line 54.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 11.09656pt on input line 53.
+(Font)              scaled to size 11.09656pt on input line 54.
 LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
-(Font)              scaled to size 11.09656pt on input line 53.
+(Font)              scaled to size 11.09656pt on input line 54.
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
-(Font)              scaled to size 11.09656pt on input line 53.
+(Font)              scaled to size 11.09656pt on input line 54.
 LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
-(Font)              scaled to size 9.24713pt on input line 57.
+(Font)              scaled to size 9.24713pt on input line 58.
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
-(Font)              scaled to size 9.24713pt on input line 57.
+(Font)              scaled to size 9.24713pt on input line 58.
 (load cache: extra_lmsans10-regular.luc)(load cache: extra_lmroman10-bold.luc)
 LaTeX Font Info:    Font shape `JT3/mc/b/n' in size <10> not available
-(Font)              Font shape `JT3/gt/m/n' tried instead on input line 57.
+(Font)              Font shape `JT3/gt/m/n' tried instead on input line 58.
 LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
-(Font)              scaled to size 7.70596pt on input line 57.
+(Font)              scaled to size 7.70596pt on input line 58.
 LaTeX Font Info:    Font shape `JY3/mc/b/n' in size <10> not available
-(Font)              Font shape `JY3/gt/m/n' tried instead on input line 57.
+(Font)              Font shape `JY3/gt/m/n' tried instead on input line 58.
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
-(Font)              scaled to size 7.70596pt on input line 57.
+(Font)              scaled to size 7.70596pt on input line 58.
 [1
 
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 96.
+               Default added (so using `tbp') on input line 97.
 
-<./figure/f1-1.png, id=73, 722.7pt x 265.49188pt>
+<./figure/f1-1.png, id=82, 722.7pt x 265.49188pt>
 File: ./figure/f1-1.png Graphic file (type png)
 <use ./figure/f1-1.png>
-Package luatex.def Info: ./figure/f1-1.png  used on input line 98.
+Package luatex.def Info: ./figure/f1-1.png  used on input line 99.
 (luatex.def)             Requested size: 284.52756pt x 104.52582pt.
 (load cache: extra_lmroman9-regular.luc)
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 8.32242pt on input line 102.
+(Font)              scaled to size 8.32242pt on input line 103.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 8.32242pt on input line 102.
+(Font)              scaled to size 8.32242pt on input line 103.
 LaTeX Font Info:    Calculating math sizes for size <10.79997> on input line 10
-2.
+3.
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4.5> not available
-(Font)              size <5> substituted on input line 102.
+(Font)              size <5> substituted on input line 103.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <4.5> not available
-(Font)              size <5> substituted on input line 102.
+(Font)              size <5> substituted on input line 103.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <4.5> not available
-(Font)              size <5> substituted on input line 102.
+(Font)              size <5> substituted on input line 103.
 
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 5.82565pt on input line 102.
+(Font)              scaled to size 5.82565pt on input line 103.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 4.16121pt on input line 102.
+(Font)              scaled to size 4.16121pt on input line 103.
 (load cache: extra_lmroman5-regular.luc)
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 4.62357pt on input line 129.
+(Font)              scaled to size 4.62357pt on input line 130.
 [2<./figure/f1-1.png>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 134.
+               Default added (so using `tbp') on input line 135.
 
-<./figure/f1-2.png, id=96, 268.00125pt x 113.42375pt>
+<./figure/f1-2.png, id=104, 268.00125pt x 113.42375pt>
 File: ./figure/f1-2.png Graphic file (type png)
 <use ./figure/f1-2.png>
-Package luatex.def Info: ./figure/f1-2.png  used on input line 136.
+Package luatex.def Info: ./figure/f1-2.png  used on input line 137.
 (luatex.def)             Requested size: 170.71652pt x 72.24998pt.
 [3<./figure/f1-2.png>] [4]
-Overfull \hbox (34.52086pt too wide) in paragraph at lines 230--233
+Overfull \hbox (34.52086pt too wide) in paragraph at lines 231--234
 |\JY3/mc/m/n/11.99997 の |よ |う |に |選 |べ |ば []  |こ |れ |ら |
 は |同 |様 |に |確 |か |ら |し |い  []$\OMS/cmsy/m/n/11.99997 f[]g\OML
 /cmm/m/it/11.99997 ;  \OMS/cmsy/m/n/11.99997 f[]g\OML/cmm/m/it/11.99997 ;  \OMS
 /cmsy/m/n/11.99997 f[]g\OML/cmm/m/it/11.99997 ; $
  []
 
-[5] [6]
+[5] [6] [7]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 330.
+               Default added (so using `tbp') on input line 342.
 
-<./figure/f2-1.png, id=160, 303.63437pt x 209.78375pt>
+<./figure/f2-1.png, id=182, 303.63437pt x 209.78375pt>
 File: ./figure/f2-1.png Graphic file (type png)
 <use ./figure/f2-1.png>
-Package luatex.def Info: ./figure/f2-1.png  used on input line 332.
+Package luatex.def Info: ./figure/f2-1.png  used on input line 344.
 (luatex.def)             Requested size: 170.71652pt x 117.95184pt.
-[7] [8<./figure/f2-1.png>] [9] [10] [11] (./resume.aux)
+[8<./figure/f2-1.png>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 416.
+
+<./figure/f2-2.png, id=206, 348.80313pt x 272.51813pt>
+File: ./figure/f2-2.png Graphic file (type png)
+<use ./figure/f2-2.png>
+Package luatex.def Info: ./figure/f2-2.png  used on input line 418.
+(luatex.def)             Requested size: 170.71652pt x 133.38118pt.
+[9] [10<./figure/f2-2.png>] [11]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 515.
+
+<./figure/f2-3.png, id=255, 312.66812pt x 215.30438pt>
+File: ./figure/f2-3.png Graphic file (type png)
+<use ./figure/f2-3.png>
+Package luatex.def Info: ./figure/f2-3.png  used on input line 517.
+(luatex.def)             Requested size: 170.71652pt x 117.55702pt.
+[12<./figure/f2-3.png>] [13] [14] [15] [16] [17] [18]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 821.
+
+<./figure/f3-1.png, id=370, 1282.7925pt x 854.19125pt>
+File: ./figure/f3-1.png Graphic file (type png)
+<use ./figure/f3-1.png>
+Package luatex.def Info: ./figure/f3-1.png  used on input line 823.
+(luatex.def)             Requested size: 284.52756pt x 189.46065pt.
+[19] [20<./figure/f3-1.png>] [21] (./resume.aux)
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-12-11>
@@ -983,22 +1013,24 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `resume.out' has not changed.
-(rerunfilecheck)             Checksum: 187689A90B146A245208B35DFDD55E80;1241.
+(rerunfilecheck)             Checksum: 12DE961B91485CA5231413B2E63A75C9;1477.
 )
 
 Here is how much of LuaTeX's memory you used:
- 14247 strings out of 476506
+ 14379 strings out of 476506
  156562,1977958 words of node,token memory allocated
- 1226 words of node memory still in use:
-   11 hlist, 2 vlist, 5 rule, 5 glue, 4 kern, 1 glyph, 260 attribute, 57 glue_sp
-ec, 36 attribute_list, 1 write, 14 user_defined nodes
-   avail lists: 1:24,2:43036,3:465,4:347,5:196,6:42,7:5177,8:64,9:2283,10:32
- 35872 multiletter control sequences out of 65536+600000
+ 1264 words of node memory still in use:
+   11 hlist, 2 vlist, 5 rule, 7 glue, 4 kern, 1 glyph, 271 attribute, 57 glue_sp
+ec, 37 attribute_list, 1 write, 14 user_defined nodes
+   avail lists: 1:22,2:40623,3:462,4:395,5:361,6:42,7:5280,8:64,9:2316,10:32,11:
+4
+ 35926 multiletter control sequences out of 65536+600000
  93 fonts using 66195007 bytes
- 125i,13n,128p,1839b,711s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.ot
-f></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmsans10-regular.
-otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman9-regula
+ 125i,13n,128p,1839b,869s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf>
+</usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmsans10-regular.ot
+f></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.
+otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman8-regula
 r.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmmono8-regul
 ar.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman6-reg
 ular.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmsans12-r
@@ -1008,22 +1040,27 @@ egular.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman7
 public/lm/lmroman10-regular.otf></usr/local/texlive/2023/texmf-dist/fonts/openty
 pe/public/lm/lmroman12-bold.otf></usr/local/texlive/2023/texmf-dist/fonts/openty
 pe/public/haranoaji/HaranoAjiGothic-Medium.otf></usr/local/texlive/2023/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2023/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmr9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmsy9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfont
-s/symbols/msam10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsf
-onts/symbols/msbm10.pfb>
-Output written on resume.pdf (11 pages, 384471 bytes).
+st/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2023/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8
+.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pf
+b></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10
+.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msb
+m10.pfb>
+Output written on resume.pdf (21 pages, 704969 bytes).
 
-PDF statistics: 345 PDF objects out of 1000 (max. 8388607)
- 278 compressed objects within 3 object streams
- 78 named destinations out of 1000 (max. 131072)
- 81 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 543 PDF objects out of 1000 (max. 8388607)
+ 449 compressed objects within 5 object streams
+ 147 named destinations out of 1000 (max. 131072)
+ 97 words of extra memory for PDF output out of 10000 (max. 100000000)
 
