@@ -8,7 +8,7 @@ rm(list = ls())
 
 #(setting) length of one side "l" and number of iteration "t"
 l = 1000
-t = 1000000
+t = 10000000
 
 #map vector
 map_vec = numeric(l^2)
@@ -33,7 +33,7 @@ count_df = tibble(
   iteration = 0:t, 
   count = how_many_1 )
 
-png("1000x1000/1000x1000.png", 800, 400)
+png("1000x1000/1000x100.png", 800, 400)
 #draw figure
 ggplot(count_df, aes(x = iteration, y = count)) + 
   scale_y_continuous(limits = c(0, l^2)) +

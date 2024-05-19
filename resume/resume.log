@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.12.26)  6 MAY 2024 22:03
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.12.26)  17 MAY 2024 22:00
  restricted system commands enabled.
  file:line:error style messages enabled.
 **resume.tex
@@ -435,7 +435,209 @@ Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
 \c@enlarge=\count275
 
-(/usr/local/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/lm/lmodern.sty
+Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/ccfonts/ccfonts.sty
+Package: ccfonts 2020/03/25 v1.2 (WaS)
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 80.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/lmr/m/n --> OT1/ccr/m/n on input line 80.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/lmr/bx/n --> OT1/ccr/m/n on input line 80.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 81.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/lmm/m/it --> OML/ccm/m/it on input line 81.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/lmm/b/it --> OML/ccm/m/it on input line 81.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 82.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/lmsy/m/n --> OMS/ccsy/m/n on input line 82.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/lmsy/b/n --> OMS/ccsy/m/n on input line 82.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 83.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/lmex/m/n --> OMX/ccex/m/n on input line 83.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/lmex/m/n --> OMX/ccex/m/n on input line 83.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 84.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/lmr/bx/n --> OT1/ccr/bx/n on input line 84.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/lmr/bx/n --> OT1/ccr/bx/n on input line 84.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 85.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/lmr/m/it --> OT1/ccr/m/it on input line 85.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/lmr/bx/it --> OT1/ccr/m/it on input line 85.
+)
+(/usr/local/texlive/2023/texmf-dist/tex/luatex/luatexja/addons/luatexja-fontspe
+c.sty
+Package: luatexja-fontspec 2020-09-14 fontspec support of LuaTeX-ja
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2023-10-10 LaTeX2e option processing using LaTeX3 keys
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2023-10-10 L3 Experimental document command parser
+)
+Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
+Lua module: fontspec 2022/01/15 2.8a Font selection for XeLaTeX and LuaLaTeX
+(/usr/local/texlive/2023/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
+Package: fontspec-luatex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaT
+eX
+\l__fontspec_script_int=\count276
+\l__fontspec_language_int=\count277
+\l__fontspec_strnum_int=\count278
+\l__fontspec_tmp_int=\count279
+\l__fontspec_tmpa_int=\count280
+\l__fontspec_tmpb_int=\count281
+\l__fontspec_tmpc_int=\count282
+\l__fontspec_em_int=\count283
+\l__fontspec_emdef_int=\count284
+\l__fontspec_strong_int=\count285
+\l__fontspec_strongdef_int=\count286
+\l__fontspec_tmpa_dim=\dimen164
+\l__fontspec_tmpb_dim=\dimen165
+\l__fontspec_tmpc_dim=\dimen166
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/fontspec/fontspec.cfg)(load cache:
+ extra_lmroman10-bold.luc)
+LaTeX Font Info:    Font shape `JT3/mc/b/n' in size <10> not available
+(Font)              Font shape `JT3/gt/m/n' tried instead on input line 3901.
+LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
+(Font)              scaled to size 7.70596pt on input line 3901.
+LaTeX Font Info:    Font shape `JY3/mc/b/n' in size <10> not available
+(Font)              Font shape `JY3/gt/m/n' tried instead on input line 3901.
+LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
+(Font)              scaled to size 7.70596pt on input line 3901.
+(load cache: extra_haranoajigothic-medium.luc)))
+(/usr/local/texlive/2023/texmf-dist/tex/luatex/luatexja/patches/lltjp-fontspec.
+sty)
+(/usr/local/texlive/2023/texmf-dist/tex/luatex/luatexja/addons/luatexja-fontspe
+c-27c.sty
+Package: luatexja-fontspec-27c 2020-04-04 fontspec support of LuaTeX-ja
+\g__ltj_fontspec_altnumber_int=\count287
+))
+(/usr/local/texlive/2023/texmf-dist/tex/luatex/luatexja/addons/luatexja-preset.
+sty
+Package: luatexja-preset 2022-06-19 Japanese font presets
+\g__ltjpreset_applycount_int=\count288
+
+
+Package luatexja-preset Warning: Japanese fonts will be scaled by 0.924715.
+
+
+Package luatexja-fontspec Warning: \addjfontfeature(s) ignored;
+(luatexja-fontspec)                it cannot be used with a font that wasn't
+(luatexja-fontspec)                selected by luatexja-fontspec.
+
+luaotfload | cache : Lookup cache loaded from /Users/taiyo/Library/texlive/2023/
+texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc.(load cache: ex
+tra_hiraminpro-w3.luc)(load cache: extra_hirakakupro-w6.luc)
+
+Package fontspec Info: Could not resolve font "HiraKakuPro-W6/I" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "HiraMinPro-W3/BI" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "HiraMinPro-W3/I" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Font family 'HiraMinPro-W3(0)' created for font
+(fontspec)             'HiraMinPro-W3' with options
+(fontspec)             [YokoFeatures={JFM=ujis},TateFeatures={JFM=ujisv},Scale=
+0.924715,Kerning=Off,Script=CJK,BoldFont=HiraKakuPro-W6,YokoFeatures={JFM=ujis}
+,TateFeatures={JFM=ujisv},Script=CJK].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+
+LaTeX Font Info:    Redeclaring symbol font `mincho' on input line 732.
+LaTeX Font Info:    Overwriting symbol font `mincho' in version `normal'
+(Font)                  JY3/mc/m/n --> JY3/HiraMinPro-W3(0)/m/n on input line 7
+32.
+LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
+(Font)                  JY3/gt/m/n --> JY3/HiraMinPro-W3(0)/m/n on input line 7
+32.
+LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
+(Font)                  JY3/HiraMinPro-W3(0)/m/n --> JY3/HiraMinPro-W3(0)/b/n o
+n input line 732.
+LaTeX Font Info:    Font shape `JT3/HiraMinPro-W3(0)/m/n' will be
+(Font)              scaled to size 9.24713pt on input line 732.
+LaTeX Font Info:    Font shape `JY3/HiraMinPro-W3(0)/m/n' will be
+(Font)              scaled to size 9.24713pt on input line 732.
+
+Package fontspec Info: Could not resolve font "HiraKakuPro-W6/I" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "HiraKakuPro-W6/BI" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "HiraKakuPro-W6/I" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Font family 'HiraKakuPro-W6(0)' created for font
+(fontspec)             'HiraKakuPro-W6' with options
+(fontspec)             [YokoFeatures={JFM=ujis},TateFeatures={JFM=ujisv},Scale=
+0.924715,Kerning=Off,Script=CJK,BoldFont=HiraKakuPro-W6,YokoFeatures={JFM=ujis}
+,TateFeatures={JFM=ujisv},Script=CJK].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+
+LaTeX Font Info:    Redeclaring math alphabet \mathgt on input line 732.
+LaTeX Font Info:    Overwriting math alphabet `\mathgt' in version `normal'
+(Font)                  JY3/gt/m/n --> JY3/HiraKakuPro-W6(0)/m/n on input line 
+732.
+LaTeX Font Info:    Overwriting math alphabet `\mathgt' in version `bold'
+(Font)                  JY3/gt/m/n --> JY3/HiraKakuPro-W6(0)/m/n on input line 
+732.
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -490,11 +692,11 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
  (/usr/local/texlive/2023/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count276
+\c@section@level=\count289
 )
-\@linkdim=\dimen164
-\Hy@linkcounter=\count277
-\Hy@pagecounter=\count278
+\@linkdim=\dimen167
+\Hy@linkcounter=\count290
+\Hy@pagecounter=\count291
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2023-11-26 v7.01g Hyperref: PDFDocEncoding definition (HO)
@@ -502,7 +704,7 @@ File: pd1enc.def 2023-11-26 v7.01g Hyperref: PDFDocEncoding definition (HO)
 (/usr/local/texlive/2023/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count279
+\Hy@SavedSpaceFactor=\count292
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2023-11-26 v7.01g Hyperref: PDF Unicode definition (HO)
@@ -514,14 +716,14 @@ Package hyperref Info: Plain pages OFF on input line 4196.
 Package hyperref Info: Backreferencing OFF on input line 4201.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4448.
-\c@Hy@tempcnt=\count280
+\c@Hy@tempcnt=\count293
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4786.
-\XeTeXLinkMargin=\dimen165
+\XeTeXLinkMargin=\dimen168
 
 (/usr/local/texlive/2023/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -530,9 +732,9 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count281
-\Field@Width=\dimen166
-\Fld@charsize=\dimen167
+\Fld@menulength=\count294
+\Field@Width=\dimen169
+\Fld@charsize=\dimen170
 Package hyperref Info: Hyper figures OFF on input line 6065.
 Package hyperref Info: Link nesting OFF on input line 6070.
 Package hyperref Info: Hyper index ON on input line 6073.
@@ -545,9 +747,9 @@ Package hyperref Info: PDF/A mode OFF on input line 6095.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count282
-\c@Item=\count283
-\c@Hfootnote=\count284
+\Hy@abspage=\count295
+\c@Item=\count296
+\c@Hfootnote=\count297
 )
 Package hyperref Info: Driver (autodetected): hluatex.
 
@@ -563,8 +765,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count285
-\c@bookmark@seq@number=\count286
+\Fld@listcount=\count298
+\c@bookmark@seq@number=\count299
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
@@ -577,7 +779,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip51
 )
-Package hyperref Info: Option `colorlinks' set `false' on input line 8.
+Package hyperref Info: Option `colorlinks' set `false' on input line 22.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2023/05/13 v2.17o AMS math features
 \@mathmargin=\skip52
@@ -589,23 +791,23 @@ Package: amstext 2021/08/26 v2.01 AMS text
 (/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks27
-\ex@=\dimen168
+\ex@=\dimen171
 ))
 (/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen169
+\pmbraise@=\dimen172
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count287
+\inf@bad=\count300
 LaTeX Info: Redefining \frac on input line 236.
-\uproot@=\count288
-\leftroot@=\count289
+\uproot@=\count301
+\leftroot@=\count302
 LaTeX Info: Redefining \overline on input line 399.
 LaTeX Info: Redefining \colon on input line 410.
-\classnum@=\count290
-\DOTSCASE@=\count291
+\classnum@=\count303
+\DOTSCASE@=\count304
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
@@ -615,30 +817,30 @@ LaTeX Info: Redefining \big on input line 722.
 LaTeX Info: Redefining \Big on input line 723.
 LaTeX Info: Redefining \bigg on input line 724.
 LaTeX Info: Redefining \Bigg on input line 725.
-\big@size=\dimen170
+\big@size=\dimen173
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count292
+\macc@depth=\count305
 LaTeX Info: Redefining \bmod on input line 905.
 LaTeX Info: Redefining \pmod on input line 910.
 LaTeX Info: Redefining \smash on input line 940.
 LaTeX Info: Redefining \relbar on input line 970.
 LaTeX Info: Redefining \Relbar on input line 971.
-\c@MaxMatrixCols=\count293
+\c@MaxMatrixCols=\count306
 \dotsspace@=\muskip17
-\c@parentequation=\count294
-\dspbrk@lvl=\count295
+\c@parentequation=\count307
+\dspbrk@lvl=\count308
 \tag@help=\toks28
-\row@=\count296
-\column@=\count297
-\maxfields@=\count298
+\row@=\count309
+\column@=\count310
+\maxfields@=\count311
 \andhelp@=\toks29
-\eqnshift@=\dimen171
-\alignsep@=\dimen172
-\tagshift@=\dimen173
-\tagwidth@=\dimen174
-\totwidth@=\dimen175
-\lineht@=\dimen176
+\eqnshift@=\dimen174
+\alignsep@=\dimen175
+\tagshift@=\dimen176
+\tagwidth@=\dimen177
+\totwidth@=\dimen178
+\lineht@=\dimen179
 \@envbody=\toks30
 \multlinegap=\skip53
 \multlinetaggap=\skip54
@@ -660,26 +862,26 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (./framed.sty
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \OuterFrameSep=\skip55
-\fb@frw=\dimen177
-\fb@frh=\dimen178
-\FrameRule=\dimen179
-\FrameSep=\dimen180
+\fb@frw=\dimen180
+\fb@frh=\dimen181
+\FrameRule=\dimen182
+\FrameSep=\dimen183
 ) (/usr/local/texlive/2023/texmf-dist/tex/generic/ulem/ulem.sty
 \UL@box=\box72
 \UL@hyphenbox=\box73
 \UL@skip=\skip56
 \UL@hook=\toks32
-\UL@height=\dimen181
-\UL@pe=\count299
-\UL@pixel=\dimen182
+\UL@height=\dimen184
+\UL@pe=\count312
+\UL@pixel=\dimen185
 \ULC@box=\box74
 Package: ulem 2019/11/18
-\ULdepth=\dimen183
+\ULdepth=\dimen186
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-\wrapoverhang=\dimen184
-\WF@size=\dimen185
-\c@WF@wrappedlines=\count300
+\wrapoverhang=\dimen187
+\WF@size=\dimen188
+\c@WF@wrappedlines=\count313
 \WF@box=\box75
 \WF@everypar=\toks33
 Package: wrapfig 2003/01/31  v 3.6
@@ -698,22 +900,22 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: luatex.def on input line 107.
 )
-\Gin@req@height=\dimen186
-\Gin@req@width=\dimen187
+\Gin@req@height=\dimen189
+\Gin@req@width=\dimen190
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen188
-\captionmargin=\dimen189
-\caption@leftmargin=\dimen190
-\caption@rightmargin=\dimen191
-\caption@width=\dimen192
-\caption@indent=\dimen193
-\caption@parindent=\dimen194
-\caption@hangindent=\dimen195
+\caption@tempdima=\dimen191
+\captionmargin=\dimen192
+\caption@leftmargin=\dimen193
+\caption@rightmargin=\dimen194
+\caption@width=\dimen195
+\caption@indent=\dimen196
+\caption@parindent=\dimen197
+\caption@hangindent=\dimen198
 Package caption Info: Unknown document class (or package),
 (caption)             standard defaults will be used.
 Package caption Info: \@makecaption = \long macro:#1#2->{\small \advance \lefts
@@ -726,15 +928,15 @@ Package caption Warning: Unknown document class (or package),
 (caption)                standard defaults will be used.
 See the caption package documentation for explanation.
 
-\c@caption@flags=\count301
-\c@continuedfloat=\count302
+\c@caption@flags=\count314
+\c@continuedfloat=\count315
 Package caption Info: hyperref package is loaded.
 Package caption Info: wrapfig package is loaded.
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/enumerate.sty
 Package: enumerate 2023/07/04 v3.00 enumerate extensions (DPC)
 \@enLab=\toks34
 )
-\c@eg=\count303
+\c@eg=\count316
 
 (./resume.aux
 
@@ -743,48 +945,48 @@ LaTeX Warning: Label `eq:1.10' multiply defined.
 )
 \openout1 = resume.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
-8.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
+LaTeX Font Info:    Trying loading font information for TS1+cmr on input line 4
+2.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for JY3/mc/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for JT3/mc/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for JY3/mc/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for JT3/mc/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
 
 (/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count304
-\scratchdimen=\dimen196
+\scratchcounter=\count317
+\scratchdimen=\dimen199
 \scratchbox=\box76
-\nofMPsegments=\count305
-\nofMParguments=\count306
+\nofMPsegments=\count318
+\nofMParguments=\count319
 \everyMPshowfont=\toks35
-\MPscratchCnt=\count307
-\MPscratchDim=\dimen197
-\MPnumerator=\count308
-\makeMPintoPDFobject=\count309
+\MPscratchCnt=\count320
+\MPscratchDim=\dimen256
+\MPnumerator=\count321
+\makeMPintoPDFobject=\count322
 \everyMPtoPDFconversion=\toks36
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -795,7 +997,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 28.
+Package hyperref Info: Link coloring OFF on input line 42.
 
 (./resume.out) (./resume.out)
 \@outlinefile=\write3
@@ -804,200 +1006,250 @@ Package hyperref Info: Link coloring OFF on input line 28.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 (load cache: extra_lmroman12-regular.luc)
-LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 13.31586pt on input line 30.
-LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 13.31586pt on input line 30.
+LaTeX Font Info:    Font shape `JT3/HiraMinPro-W3(0)/m/n' will be
+(Font)              scaled to size 13.31586pt on input line 44.
+LaTeX Font Info:    Font shape `JY3/HiraMinPro-W3(0)/m/n' will be
+(Font)              scaled to size 13.31586pt on input line 44.
 (load cache: extra_lmroman12-bold.luc)
-LaTeX Font Info:    Font shape `JT3/mc/b/n' in size <14.4> not available
-(Font)              Font shape `JT3/gt/m/n' tried instead on input line 34.
-LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
-(Font)              scaled to size 11.09657pt on input line 34.
-LaTeX Font Info:    Font shape `JY3/mc/b/n' in size <14.4> not available
-(Font)              Font shape `JY3/gt/m/n' tried instead on input line 34.
-LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
-(Font)              scaled to size 11.09657pt on input line 34.
-(load cache: extra_haranoajigothic-medium.luc)
-LaTeX Font Info:    Calculating math sizes for size <11.99997> on input line 43
+LaTeX Font Info:    Font shape `JT3/HiraMinPro-W3(0)/b/n' will be
+(Font)              scaled to size 13.31586pt on input line 48.
+LaTeX Font Info:    Font shape `JY3/HiraMinPro-W3(0)/b/n' will be
+(Font)              scaled to size 13.31586pt on input line 48.
+LaTeX Font Info:    Calculating math sizes for size <11.99997> on input line 57
 .
-LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 6.47295pt on input line 43.
-LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 4.62357pt on input line 43.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 43.
+LaTeX Font Info:    Trying loading font information for OT1+ccr on input line 5
+7.
 
-
-(/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+(/usr/local/texlive/2023/texmf-dist/tex/latex/concmath/ot1ccr.fd
+File: ot1ccr.fd 1999/03/10 v2.0b LaTeX font defs for Concrete math fonts
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 43.
+LaTeX Font Info:    Trying loading font information for OML+ccm on input line 5
+7.
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/concmath/omlccm.fd
+File: omlccm.fd 1999/03/10 v2.0b LaTeX font defs for Concrete math fonts
+)
+LaTeX Font Info:    Trying loading font information for OMS+ccsy on input line 
+57.
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/concmath/omsccsy.fd
+File: omsccsy.fd 1999/03/10 v2.0b LaTeX font defs for Concrete math fonts
+)
+LaTeX Font Info:    Trying loading font information for OMX+ccex on input line 
+57.
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/concmath/omxccex.fd
+File: omxccex.fd 1999/03/10 v2.0b LaTeX font defs for Concrete math fonts
+)
+LaTeX Font Info:    External font `xccex10' loaded for size
+(Font)              <10> on input line 57.
+LaTeX Font Info:    External font `xccex10' loaded for size
+(Font)              <6.99995> on input line 57.
+LaTeX Font Info:    External font `xccex10' loaded for size
+(Font)              <5> on input line 57.
+LaTeX Font Info:    Font shape `JY3/HiraMinPro-W3(0)/m/n' will be
+(Font)              scaled to size 6.47295pt on input line 57.
+LaTeX Font Info:    Font shape `JY3/HiraMinPro-W3(0)/m/n' will be
+(Font)              scaled to size 4.62357pt on input line 57.
+(load cache: extra_lmroman7-regular.luc)
+LaTeX Font Info:    Font shape `JT3/HiraMinPro-W3(0)/m/n' will be
+(Font)              scaled to size 6.47295pt on input line 57.
+LaTeX Font Info:    Font shape `JT3/HiraMinPro-W3(0)/m/n' will be
+(Font)              scaled to size 7.3977pt on input line 60.
+LaTeX Font Info:    Font shape `JY3/HiraMinPro-W3(0)/m/n' will be
+(Font)              scaled to size 7.3977pt on input line 60.
+LaTeX Font Info:    Calculating math sizes for size <9.59998> on input line 60.
 
 
-(/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)(load cache: extra_lmroman7-regular.luc)
-LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 6.47295pt on input line 43.
-LaTeX Font Info:    Calculating math sizes for size <9.59998> on input line 46.
+
+LaTeX Font Warning: Font shape `OT1/ccr/m/n' in size <5.59996> not available
+(Font)              size <6> substituted on input line 60.
 
 
-
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.59996> not available
-(Font)              size <6> substituted on input line 46.
-
-
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4> not available
-(Font)              size <5> substituted on input line 46.
+LaTeX Font Warning: Font shape `OT1/ccr/m/n' in size <4> not available
+(Font)              size <5> substituted on input line 60.
 
 
-LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <5.59996> not available
-(Font)              size <6> substituted on input line 46.
+LaTeX Font Warning: Font shape `OML/ccm/m/it' in size <5.59996> not available
+(Font)              size <6> substituted on input line 60.
 
 
-LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <4> not available
-(Font)              size <5> substituted on input line 46.
+LaTeX Font Warning: Font shape `OML/ccm/m/it' in size <4> not available
+(Font)              size <5> substituted on input line 60.
 
 
-LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <5.59996> not available
-(Font)              size <6> substituted on input line 46.
+LaTeX Font Warning: Font shape `OMS/ccsy/m/n' in size <5.59996> not available
+(Font)              size <6> substituted on input line 60.
 
 
-LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <4> not available
-(Font)              size <5> substituted on input line 46.
+LaTeX Font Warning: Font shape `OMS/ccsy/m/n' in size <4> not available
+(Font)              size <5> substituted on input line 60.
 
-LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 5.17834pt on input line 46.
-LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 3.69885pt on input line 46.
+LaTeX Font Info:    External font `xccex10' loaded for size
+(Font)              <8> on input line 60.
+LaTeX Font Info:    External font `xccex10' loaded for size
+(Font)              <5.59996> on input line 60.
+LaTeX Font Info:    External font `xccex10' loaded for size
+(Font)              <4> on input line 60.
+LaTeX Font Info:    Font shape `JY3/HiraMinPro-W3(0)/m/n' will be
+(Font)              scaled to size 5.17834pt on input line 60.
+LaTeX Font Info:    Font shape `JY3/HiraMinPro-W3(0)/m/n' will be
+(Font)              scaled to size 3.69885pt on input line 60.
+
+LaTeX Font Warning: Font shape `U/msa/m/n' in size <5.59996> not available
+(Font)              size <6> substituted on input line 60.
+
+
+LaTeX Font Warning: Font shape `U/msa/m/n' in size <4> not available
+(Font)              size <5> substituted on input line 60.
+
+
+LaTeX Font Warning: Font shape `U/msb/m/n' in size <5.59996> not available
+(Font)              size <6> substituted on input line 60.
+
+
+LaTeX Font Warning: Font shape `U/msb/m/n' in size <4> not available
+(Font)              size <5> substituted on input line 60.
+
 (load cache: extra_lmroman6-regular.luc)
-LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 5.17834pt on input line 46.
+LaTeX Font Info:    Font shape `JT3/HiraMinPro-W3(0)/m/n' will be
+(Font)              scaled to size 5.17834pt on input line 60.
 (load cache: extra_lmmono8-regular.luc)
-LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
-(Font)              scaled to size 7.3977pt on input line 46.
-LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
-(Font)              scaled to size 7.3977pt on input line 46.
-LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
-(Font)              scaled to size 13.31586pt on input line 52.
-LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
-(Font)              scaled to size 13.31586pt on input line 52.
+LaTeX Font Info:    Font shape `JT3/HiraKakuPro-W6(0)/m/n' will be
+(Font)              scaled to size 7.3977pt on input line 60.
+LaTeX Font Info:    Font shape `JY3/HiraKakuPro-W6(0)/m/n' will be
+(Font)              scaled to size 7.3977pt on input line 60.
+LaTeX Font Info:    Font shape `JT3/HiraKakuPro-W6(0)/m/n' will be
+(Font)              scaled to size 13.31586pt on input line 66.
+LaTeX Font Info:    Font shape `JY3/HiraKakuPro-W6(0)/m/n' will be
+(Font)              scaled to size 13.31586pt on input line 66.
 (load cache: extra_lmsans12-regular.luc)
-LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 11.09656pt on input line 54.
-LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 11.09656pt on input line 54.
-LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
-(Font)              scaled to size 11.09656pt on input line 54.
-LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
-(Font)              scaled to size 11.09656pt on input line 54.
-LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
-(Font)              scaled to size 9.24713pt on input line 58.
-LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
-(Font)              scaled to size 9.24713pt on input line 58.
-(load cache: extra_lmsans10-regular.luc)(load cache: extra_lmroman10-bold.luc)
-LaTeX Font Info:    Font shape `JT3/mc/b/n' in size <10> not available
-(Font)              Font shape `JT3/gt/m/n' tried instead on input line 58.
-LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
-(Font)              scaled to size 7.70596pt on input line 58.
-LaTeX Font Info:    Font shape `JY3/mc/b/n' in size <10> not available
-(Font)              Font shape `JY3/gt/m/n' tried instead on input line 58.
-LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
-(Font)              scaled to size 7.70596pt on input line 58.
+LaTeX Font Info:    Font shape `JT3/HiraMinPro-W3(0)/m/n' will be
+(Font)              scaled to size 11.09656pt on input line 68.
+LaTeX Font Info:    Font shape `JY3/HiraMinPro-W3(0)/m/n' will be
+(Font)              scaled to size 11.09656pt on input line 68.
+LaTeX Font Info:    Font shape `JT3/HiraKakuPro-W6(0)/m/n' will be
+(Font)              scaled to size 11.09656pt on input line 68.
+LaTeX Font Info:    Font shape `JY3/HiraKakuPro-W6(0)/m/n' will be
+(Font)              scaled to size 11.09656pt on input line 68.
+LaTeX Font Info:    Font shape `JT3/HiraKakuPro-W6(0)/m/n' will be
+(Font)              scaled to size 9.24713pt on input line 72.
+LaTeX Font Info:    Font shape `JY3/HiraKakuPro-W6(0)/m/n' will be
+(Font)              scaled to size 9.24713pt on input line 72.
+(load cache: extra_lmsans10-regular.luc)
+LaTeX Font Info:    Font shape `JT3/HiraMinPro-W3(0)/b/n' will be
+(Font)              scaled to size 9.24713pt on input line 72.
+LaTeX Font Info:    Font shape `JY3/HiraMinPro-W3(0)/b/n' will be
+(Font)              scaled to size 9.24713pt on input line 72.
 [1
 
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 97.
+               Default added (so using `tbp') on input line 111.
 
 <./figure/f1-1.png, id=82, 722.7pt x 265.49188pt>
 File: ./figure/f1-1.png Graphic file (type png)
 <use ./figure/f1-1.png>
-Package luatex.def Info: ./figure/f1-1.png  used on input line 99.
+Package luatex.def Info: ./figure/f1-1.png  used on input line 113.
 (luatex.def)             Requested size: 284.52756pt x 104.52582pt.
 (load cache: extra_lmroman9-regular.luc)
-LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 8.32242pt on input line 103.
-LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 8.32242pt on input line 103.
-LaTeX Font Info:    Calculating math sizes for size <10.79997> on input line 10
-3.
+LaTeX Font Info:    Font shape `JT3/HiraMinPro-W3(0)/m/n' will be
+(Font)              scaled to size 8.32242pt on input line 117.
+LaTeX Font Info:    Font shape `JY3/HiraMinPro-W3(0)/m/n' will be
+(Font)              scaled to size 8.32242pt on input line 117.
+LaTeX Font Info:    Calculating math sizes for size <10.79997> on input line 11
+7.
 
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4.5> not available
-(Font)              size <5> substituted on input line 103.
-
-
-LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <4.5> not available
-(Font)              size <5> substituted on input line 103.
+LaTeX Font Warning: Font shape `OT1/ccr/m/n' in size <4.5> not available
+(Font)              size <5> substituted on input line 117.
 
 
-LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <4.5> not available
-(Font)              size <5> substituted on input line 103.
+LaTeX Font Warning: Font shape `OML/ccm/m/it' in size <4.5> not available
+(Font)              size <5> substituted on input line 117.
 
-LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 5.82565pt on input line 103.
-LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 4.16121pt on input line 103.
+
+LaTeX Font Warning: Font shape `OMS/ccsy/m/n' in size <4.5> not available
+(Font)              size <5> substituted on input line 117.
+
+LaTeX Font Info:    External font `xccex10' loaded for size
+(Font)              <9> on input line 117.
+LaTeX Font Info:    External font `xccex10' loaded for size
+(Font)              <6.29997> on input line 117.
+LaTeX Font Info:    External font `xccex10' loaded for size
+(Font)              <4.5> on input line 117.
+LaTeX Font Info:    Font shape `JY3/HiraMinPro-W3(0)/m/n' will be
+(Font)              scaled to size 5.82565pt on input line 117.
+LaTeX Font Info:    Font shape `JY3/HiraMinPro-W3(0)/m/n' will be
+(Font)              scaled to size 4.16121pt on input line 117.
+
+LaTeX Font Warning: Font shape `U/msa/m/n' in size <4.5> not available
+(Font)              size <5> substituted on input line 117.
+
+
+LaTeX Font Warning: Font shape `U/msb/m/n' in size <4.5> not available
+(Font)              size <5> substituted on input line 117.
+
 (load cache: extra_lmroman5-regular.luc)
-LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 4.62357pt on input line 130.
+LaTeX Font Info:    Font shape `JT3/HiraMinPro-W3(0)/m/n' will be
+(Font)              scaled to size 4.62357pt on input line 144.
 [2<./figure/f1-1.png>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 135.
+               Default added (so using `tbp') on input line 149.
 
 <./figure/f1-2.png, id=104, 268.00125pt x 113.42375pt>
 File: ./figure/f1-2.png Graphic file (type png)
 <use ./figure/f1-2.png>
-Package luatex.def Info: ./figure/f1-2.png  used on input line 137.
+Package luatex.def Info: ./figure/f1-2.png  used on input line 151.
 (luatex.def)             Requested size: 170.71652pt x 72.24998pt.
 [3<./figure/f1-2.png>] [4]
-Overfull \hbox (34.52086pt too wide) in paragraph at lines 231--234
-|\JY3/mc/m/n/11.99997 の |よ |う |に |選 |べ |ば []  |こ |れ |ら |
-は |同 |様 |に |確 |か |ら |し |い  []$\OMS/cmsy/m/n/11.99997 f[]g\OML
-/cmm/m/it/11.99997 ;  \OMS/cmsy/m/n/11.99997 f[]g\OML/cmm/m/it/11.99997 ;  \OMS
-/cmsy/m/n/11.99997 f[]g\OML/cmm/m/it/11.99997 ; $
+Overfull \hbox (34.52086pt too wide) in paragraph at lines 245--248
+|\JY3/HiraMinPro-W3(0)/m/n/11.99997 の |よ |う |に |選 |べ |ば []  |こ 
+|れ |ら |は |同 |様 |に |確 |か |ら |し |い  []$\OMS/ccsy/m/n/11.999
+97 f[]g\OML/ccm/m/it/11.99997 ;  \OMS/ccsy/m/n/11.99997 f[]g\OML/ccm/m/it/11.99
+997 ;  \OMS/ccsy/m/n/11.99997 f[]g\OML/ccm/m/it/11.99997 ; $
  []
 
 [5] [6] [7]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 342.
+               Default added (so using `tbp') on input line 356.
 
-<./figure/f2-1.png, id=182, 303.63437pt x 209.78375pt>
+<./figure/f2-1.png, id=183, 303.63437pt x 209.78375pt>
 File: ./figure/f2-1.png Graphic file (type png)
 <use ./figure/f2-1.png>
-Package luatex.def Info: ./figure/f2-1.png  used on input line 344.
+Package luatex.def Info: ./figure/f2-1.png  used on input line 358.
 (luatex.def)             Requested size: 170.71652pt x 117.95184pt.
 [8<./figure/f2-1.png>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 416.
+               Default added (so using `tbp') on input line 430.
 
-<./figure/f2-2.png, id=206, 348.80313pt x 272.51813pt>
+<./figure/f2-2.png, id=207, 348.80313pt x 272.51813pt>
 File: ./figure/f2-2.png Graphic file (type png)
 <use ./figure/f2-2.png>
-Package luatex.def Info: ./figure/f2-2.png  used on input line 418.
+Package luatex.def Info: ./figure/f2-2.png  used on input line 432.
 (luatex.def)             Requested size: 170.71652pt x 133.38118pt.
 [9] [10<./figure/f2-2.png>] [11]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 515.
+               Default added (so using `tbp') on input line 529.
 
-<./figure/f2-3.png, id=255, 312.66812pt x 215.30438pt>
+<./figure/f2-3.png, id=256, 312.66812pt x 215.30438pt>
 File: ./figure/f2-3.png Graphic file (type png)
 <use ./figure/f2-3.png>
-Package luatex.def Info: ./figure/f2-3.png  used on input line 517.
+Package luatex.def Info: ./figure/f2-3.png  used on input line 531.
 (luatex.def)             Requested size: 170.71652pt x 117.55702pt.
 [12<./figure/f2-3.png>] [13] [14] [15] [16] [17] [18]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 821.
+               Default added (so using `tbp') on input line 835.
 
-<./figure/f3-1.png, id=370, 1282.7925pt x 854.19125pt>
+<./figure/f3-1.png, id=371, 1282.7925pt x 854.19125pt>
 File: ./figure/f3-1.png Graphic file (type png)
 <use ./figure/f3-1.png>
-Package luatex.def Info: ./figure/f3-1.png  used on input line 823.
+Package luatex.def Info: ./figure/f3-1.png  used on input line 837.
 (luatex.def)             Requested size: 284.52756pt x 189.46065pt.
 [19] [20<./figure/f3-1.png>] [21] (./resume.aux)
  ***********
@@ -1017,50 +1269,55 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 14379 strings out of 476506
+ 17296 strings out of 476506
  156562,1977958 words of node,token memory allocated
  1264 words of node memory still in use:
    11 hlist, 2 vlist, 5 rule, 7 glue, 4 kern, 1 glyph, 271 attribute, 57 glue_sp
 ec, 37 attribute_list, 1 write, 14 user_defined nodes
-   avail lists: 1:22,2:40623,3:462,4:395,5:361,6:42,7:5280,8:64,9:2316,10:32,11:
+   avail lists: 1:20,2:40623,3:462,4:395,5:361,6:42,7:5283,8:64,9:2316,10:32,11:
 4
- 35926 multiletter control sequences out of 65536+600000
- 93 fonts using 66195007 bytes
- 125i,13n,128p,1839b,869s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf>
-</usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmsans10-regular.ot
-f></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.
-otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman8-regula
-r.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmmono8-regul
-ar.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman6-reg
-ular.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmsans12-r
-egular.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman7
--regular.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/haranoaji
-/HaranoAjiMincho-Regular.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/
-public/lm/lmroman10-regular.otf></usr/local/texlive/2023/texmf-dist/fonts/openty
-pe/public/lm/lmroman12-bold.otf></usr/local/texlive/2023/texmf-dist/fonts/openty
-pe/public/haranoaji/HaranoAjiGothic-Medium.otf></usr/local/texlive/2023/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2023/texmf-dist/font
-s/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-sy7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8
-.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pf
-b></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10
-.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msb
-m10.pfb>
-Output written on resume.pdf (21 pages, 704969 bytes).
+ 38773 multiletter control sequences out of 65536+600000
+ 90 fonts using 95968119 bytes
+ 125i,13n,128p,1839b,881s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<</Users/taiyo/Library/texlive/2023/texmf-var/fonts/pk/ljfour/public/concmath-fo
+nts/xccmi5.720pk>><</Users/taiyo/Library/texlive/2023/texmf-var/fonts/pk/ljfour/
+public/concmath-fonts/xccmi6.720pk>><</Users/taiyo/Library/texlive/2023/texmf-va
+r/fonts/pk/ljfour/public/concmath-fonts/xccsy7.720pk>><</Users/taiyo/Library/tex
+live/2023/texmf-var/fonts/pk/ljfour/public/concmath-fonts/xccmi7.720pk>></usr/lo
+cal/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><</Users
+/taiyo/Library/texlive/2023/texmf-var/fonts/pk/ljfour/public/concrete/ccr7.720pk
+>><</Users/taiyo/Library/texlive/2023/texmf-var/fonts/pk/ljfour/public/concmath-
+fonts/xccex10.720pk>><</Users/taiyo/Library/texlive/2023/texmf-var/fonts/pk/ljfo
+ur/public/concrete/ccr8.720pk>><</Users/taiyo/Library/texlive/2023/texmf-var/fon
+ts/pk/ljfour/public/concmath-fonts/xccam10.720pk>><</Users/taiyo/Library/texlive
+/2023/texmf-var/fonts/pk/ljfour/public/concmath-fonts/xccbm9.720pk>><</Users/tai
+yo/Library/texlive/2023/texmf-var/fonts/pk/ljfour/public/concrete/ccr9.720pk>><<
+/Users/taiyo/Library/texlive/2023/texmf-var/fonts/pk/ljfour/public/concmath-font
+s/xccsy8.720pk>><</Users/taiyo/Library/texlive/2023/texmf-var/fonts/pk/ljfour/pu
+blic/concmath-fonts/xccmi8.720pk>></usr/local/texlive/2023/texmf-dist/fonts/open
+type/public/lm/lmsans10-regular.otf><</Users/taiyo/Library/texlive/2023/texmf-va
+r/fonts/pk/ljfour/public/concmath-fonts/xccsy9.720pk>><</Users/taiyo/Library/tex
+live/2023/texmf-var/fonts/pk/ljfour/public/concmath-fonts/xccmi9.720pk>></usr/lo
+cal/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.otf></usr/
+local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf></us
+r/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmmono8-regular.otf></u
+sr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman6-regular.otf><
+</Users/taiyo/Library/texlive/2023/texmf-var/fonts/pk/ljfour/public/concmath-fon
+ts/xccbm10.720pk>><</Users/taiyo/Library/texlive/2023/texmf-var/fonts/pk/ljfour/
+public/concmath-fonts/xccsy10.720pk>><</Users/taiyo/Library/texlive/2023/texmf-v
+ar/fonts/pk/ljfour/public/concmath-fonts/xccmi10.720pk>><</Users/taiyo/Library/t
+exlive/2023/texmf-var/fonts/pk/ljfour/public/concrete/ccr10.720pk>></usr/local/t
+exlive/2023/texmf-dist/fonts/opentype/public/lm/lmsans12-regular.otf></usr/local
+/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman7-regular.otf></System/
+Library/Fonts/ヒラギノ明朝 ProN.ttc></System/Library/Fonts/ヒラキ
+゙ノ明朝 ProN.ttc></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/
+lm/lmroman10-regular.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/publ
+ic/lm/lmroman12-bold.otf></System/Library/Fonts/ヒラギノ角ゴシッ
+ク W6.ttc></System/Library/Fonts/ヒラギノ角ゴシック W6.ttc>
+Output written on resume.pdf (21 pages, 655089 bytes).
 
-PDF statistics: 543 PDF objects out of 1000 (max. 8388607)
- 449 compressed objects within 5 object streams
+PDF statistics: 635 PDF objects out of 1000 (max. 8388607)
+ 470 compressed objects within 5 object streams
  147 named destinations out of 1000 (max. 131072)
  97 words of extra memory for PDF output out of 10000 (max. 100000000)
 

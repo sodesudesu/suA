@@ -3,6 +3,20 @@
 %\documentclass[luatexja,fontsize=18pt]{jlreq}\usepackage{ifthen}\newcounter{enlarge}\setcounter{enlarge}{2}
 %\documentclass[luatexja,fontsize=22pt]{jlreq}\usepackage{ifthen}\newcounter{enlarge}\setcounter{enlarge}{3}
 
+\usepackage{lmodern} % 数学ガールの真似
+\usepackage{ccfonts} % ccfonts を入れると、sin, cosだけじゃなくすべての英文がConcreteになってしまうので注意
+\usepackage{luatexja-fontspec}
+% \setmainjfont[
+% UprightFont = {*-Regular},
+% BoldFont = {*-Bold},
+% UprightFeatures={ AltFont={
+%     {Range="3040-"30FF, Font=HaranoAjiMincho-Regular}}},
+% BoldFeatures={ AltFont={
+%     {Range="3040-"30FF, Font=HaranoAjiMincho-Bold}}}
+% ]{HaranoAjiGothic}
+\usepackage[hiragino-pro]{luatexja-preset}
+
+
 \usepackage{xcolor}
 \usepackage{hyperref}
 \hypersetup{colorlinks=false,citebordercolor=green,linkbordercolor=red,urlbordercolor=cyan,}
