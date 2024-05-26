@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.12.26)  26 MAY 2024 21:54
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.12.26)  26 MAY 2024 22:12
  restricted system commands enabled.
  file:line:error style messages enabled.
 **resume.tex
@@ -1292,7 +1292,7 @@ ive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive
 texmf-dist/fonts/type1/public/amsfonts/latxfont/lasy10.pfb></usr/local/texlive/2
 023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texliv
 e/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on resume.pdf (23 pages, 1267461 bytes).
+Output written on resume.pdf (23 pages, 1267463 bytes).
 
 PDF statistics: 592 PDF objects out of 1000 (max. 8388607)
  488 compressed objects within 5 object streams
