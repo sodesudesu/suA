@@ -1,0 +1,35 @@
+\documentclass[12pt]{ltjsarticle}
+\usepackage{lmodern} % 数学ガールの真似
+\usepackage{ccfonts} % ccfonts を入れると、sin, cosだけじゃなくすべての英文がConcreteになってしまうので注意
+%\usepackage{luatexja-fontspec}
+\usepackage[hiragino-pro]{luatexja-preset}
+\usepackage{amsmath}
+\begin{document}
+\pagestyle{empty}
+
+{\Large%
+\noindent
+\textbf{%
+独立な試行の確率と場合分け問題の融合
+}}
+
+\begin{flushleft}
+$2024$年$6$月$7$日 \\
+\end{flushleft}
+
+部室にいた $\mathrm{S}$ 君は、隣の部室にお菓子をもらいに行った。
+そこには $\mathrm{A}$ 先輩と $\mathrm{B}$ 先輩がいて、自分たちと腕相撲を $3$ 回して $2$ 連勝した時点でお菓子をあげるという。
+$\mathrm{S}$ 君は対戦順序を「$\mathrm{A}$ 先輩 -- $\mathrm{B}$ 先輩 -- $\mathrm{A}$ 先輩」もしくは「$\mathrm{B}$ 先輩 -- $\mathrm{A}$ 先輩 -- $\mathrm{B}$ 先輩」から選べる。
+$\mathrm{S}$ 君が $\mathrm{A}$ 先輩に勝つ確率は $\dfrac{1}{2}$ で、$\mathrm{B}$ 先輩に勝つ確率は $\dfrac{1}{3}$ である。
+
+$\mathrm{S}$ 君は、$\mathrm{A}$ 先輩なら勝ちやすいと考えて、$\mathrm{A}$ 先輩とより多く対戦する「$\mathrm{A}$ 先輩 -- $\mathrm{B}$ 先輩 -- $\mathrm{A}$ 先輩」の順が有利だと考えた。
+この選択に対する説明として最も適切なのは、次のうちどれ？
+（統計検定$2$級公式問題集より）
+
+\begin{enumerate}
+\item 「$\mathrm{A}$ 先輩 -- $\mathrm{B}$ 先輩 -- $\mathrm{A}$ 先輩」の順の方がお菓子を獲得する確率は高いので、$\mathrm{S}$ 君の選択は好ましい。
+\item 「$\mathrm{B}$ 先輩 -- $\mathrm{A}$ 先輩 -- $\mathrm{B}$ 先輩」の順の方がお菓子を獲得する確率は高いので、$\mathrm{S}$ 君の選択は好ましくない。
+\item どちらの選択をしてもお菓子を獲得する確率は変わらないので、$\mathrm{S}$ 君の選択でも問題はない。
+\end{enumerate}
+
+\end{document}
