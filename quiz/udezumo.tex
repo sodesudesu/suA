@@ -1,21 +1,47 @@
 \documentclass[12pt]{ltjsarticle}
-\usepackage{lmodern} % 数学ガールの真似
-\usepackage{ccfonts} % ccfonts を入れると、sin, cosだけじゃなくすべての英文がConcreteになってしまうので注意
+
+%\usepackage{lmodern} % 数学ガールの真似
+%\usepackage{ccfonts} % ccfonts を入れると、sin, cosだけじゃなくすべての英文がConcreteになってしまうので注意
 %\usepackage{luatexja-fontspec}
 \usepackage[hiragino-pro]{luatexja-preset}
 \usepackage{amsmath}
+\usepackage{url}
+\usepackage{luatexja-ruby}
+
 \begin{document}
 \pagestyle{empty}
 
-{\Large%
+{\LARGE%
 \noindent
 \textbf{%
-独立な試行の確率と場合分け問題の融合
+「独立な試行の確率」補足資料
 }}
 
 \begin{flushleft}
 $2024$年$6$月$7$日 \\
 \end{flushleft}
+
+\section{ギャンブラーの\ruby{誤謬}{ごびゅう}}
+
+アメリカの数学者であるポリアの逸話の中に次のようなものがある：
+\begin{quotation}
+  医者が患者に対して慰めの言葉をかける。
+  
+  「あなたは大変重い病気です。
+  この病気にかかった人で生き残れるのは$10$人中たった$1$人です。
+  しかしご安心ください。
+  あなたが私のところに来たのはとても幸運でした。
+  なぜなら、私はこの病気の患者を最近$9$人見ましたが、彼らは全員死んでしまっているからです。」
+\end{quotation}
+当然、この発言は確率論に基づく客観的なものではない。
+偶然によって決まる結果のうち、ある特定の結果だけが立て続けに起こると、それ以外の結果が実現する確率が高いように錯覚してしまう。
+このような誤った思い込みを、特にギャンブルに関する事柄で頻繁に議論されることから、ギャンブラーの\ruby{誤謬}{ごびゅう}という。
+授業で紹介した1913年のモンテカルロカジノの事例については、例えばBBCのネット記事 ``Why we gamble like monkeys'' (2015)\footnote{%
+  \url{https://www.bbc.com/future/article/20150127-why-we-gamble-like-monkeys}
+}
+で解説されている。
+
+\section{腕相撲の対戦順で勝率はどう変化するか}
 
 部室にいた $\mathrm{S}$ 君は、隣の部室にお菓子をもらいに行った。
 そこには $\mathrm{A}$ 先輩と $\mathrm{B}$ 先輩がいて、自分たちと腕相撲を $3$ 回して $2$ 連勝した時点でお菓子をあげるという。

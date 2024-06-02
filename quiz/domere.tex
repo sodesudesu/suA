@@ -1,0 +1,63 @@
+\documentclass[12pt]{ltjsarticle}
+
+\usepackage[hiragino-pro]{luatexja-preset}
+%\usepackage{lmodern} % 数学ガールの真似
+%\usepackage{ccfonts} % ccfonts を入れると、sin, cosだけじゃなくすべての英文がConcreteになってしまうので注意
+%\usepackage[euler-digits]{eulervm}
+\usepackage{amsmath}
+
+\begin{document}
+\pagestyle{empty}
+
+
+%\usepackage[T1]{fontenc}
+%\usepackage{textcomp}
+% \usepackage[utf8]{inputenc}
+% \usepackage{amsmath,amssymb}
+% \pagestyle{empty}
+
+{\LARGE%
+\noindent
+\textbf{%
+「余事象の確率」補足資料
+}}
+
+\begin{flushleft}
+2024年6月3日 \\
+\end{flushleft}
+
+\section*{ド・メレの問題}
+
+確率論は、賭博師のシュヴァリエ・ド・メレ\footnote{%
+  Chevalier de Méré  (1607--1684)。本名は Antoine Gombaud。
+  フランスの貴族・賭博師。
+}
+がおこなっていた賭けに関するパスカル\footnote{%
+  Blaise Pascal (1623--1662)。
+  フランスの思想家・科学者。
+  思想家としては、「人間は考える葦である」という言葉で有名だろう。
+  数学者としてはパスカルの三角形や円錐曲線論の発表、物理学者としては流体力学のパスカルの原理の発見など、多くの分野で業績を残した。
+}
+とフェルマー\footnote{%
+  Pierre de Fermat (1601--1665)。
+  フランスの弁護士・数学者。
+  本業は弁護士で数学は趣味として嗜んでいたという。
+  彼が本の余白に書き残したフェルマーの最終定理（3以上の自然数 $n$ に対して $x^n + y^n = z^n$ を満たす自然数の組 $(x, y, z)$ は存在しない）は、彼の死後300年以上経った1995年にやっと証明が与えられた。
+  フェルマーの最終定理について興味があれば、サイモン・シン『フェルマーの最終定理』（2006, 新潮文庫）を読んでほしい。
+}
+の手紙のやりとりから発展したと言われている。
+ここでは、彼らの議題の1つであったサイコロの問題を紹介する\footnote{%
+  もう1つのテーマは、サイコロのゲームを中断したとき、賞金をどう配分するのが公平かという問題だったという。
+}
+。
+
+シュヴァリエ・ド・メレは次の2つの賭けをおこなっていた：
+\begin{enumerate}
+\item サイコロを4回投げて、1回でも6の目が出たら勝ち。
+\item サイコロ2つを同時に24回投げて、1回でもゾロ目 (6, 6) が出たら勝ち。
+\end{enumerate}
+まだ確率論が整理される前であったが、ド・メレは経験的にこの2つの賭けの勝率が異なっていると勘づいていたらしい。
+この2つのゲームの勝率をそれぞれ計算し、どちらの方が勝ちやすいか調べよ。
+必要に応じて計算機の助けを借りながら取り組んでほしい。
+
+\end{document}
