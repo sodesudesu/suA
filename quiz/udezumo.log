@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.12.26)  1 JUN 2024 21:46
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.12.26)  4 JUN 2024 10:10
  restricted system commands enabled.
  file:line:error style messages enabled.
 **udezumo.tex
@@ -834,7 +834,7 @@ Here is how much of LuaTeX's memory you used:
  1049 words of node memory still in use:
    10 hlist, 2 vlist, 5 rule, 3 glue, 4 kern, 1 glyph, 198 attribute, 55 glue_sp
 ec, 28 attribute_list, 1 write, 13 user_defined nodes
-   avail lists: 1:12,2:33791,3:250,4:126,5:49,6:25,7:3781,8:70,9:1566,10:18,11:4
+   avail lists: 1:12,2:33647,3:250,4:126,5:49,6:25,7:3765,8:70,9:1558,10:17,11:4
 
  28738 multiletter control sequences out of 65536+600000
  75 fonts using 85248047 bytes
@@ -849,7 +849,7 @@ gular.otf></System/Library/Fonts/ヒラギノ明朝 ProN.ttc></System/Library
 角ゴシック W6.ttc></System/Library/Fonts/ヒラギノ角ゴシ
 ック W6.ttc></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmr10.pfb>
-Output written on udezumo.pdf (2 pages, 106329 bytes).
+Output written on udezumo.pdf (2 pages, 105153 bytes).
 
 PDF statistics: 64 PDF objects out of 1000 (max. 8388607)
  37 compressed objects within 1 object stream
